@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# @bassmadrigal`s script https://www.linuxquestions.org/questions/slackware-14/script-for-building-a-slackbuilds-txt-4175598436/#post5661600
+# 03/2023 I added "PACKAGES DEPENDEES-ON", you can modify it for your needs...
+# 
+
+for i in *; do
+  NAME=$(echo $i | cut -d "/" -f2)
+  FILES=$(ls $i)
+  source $i/${NAME}.info
+  DEPSON=$(cat $i/dependees-on)
+  SHORTDES=$(grep -m 1 $NAME $i/slack-desc | cut -d " " -f2-)
+  echo SLACKBUILD NAME: $NAME 
+  echo SLACKBUILD LOCATION: $i
+  echo SLACKBUILD FILES: $FILES
+  echo SLACKBUILD VERSION: $VERSION
+  echo SLACKBUILD DOWNLOAD: $DOWNLOAD
+  echo SLACKBUILD DOWNLOAD_x86_64: $DOWNLOAD_x86_64 
+  echo SLACKBUILD MD5SUM: $MD5SUM 
+  echo SLACKBUILD MD5SUM_x86_64: $MD5SUM_x86_64 
+  echo SLACKBUILD REQUIRES: $REQUIRES 
+  echo PACKAGES DEPENDEES-ON: $DEPSON
+  echo SLACKBUILD SHORT DESCRIPTION: $SHORTDES 
+  echo 
+done

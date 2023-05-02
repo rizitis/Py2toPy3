@@ -1,3 +1,6 @@
+02/05/2023-08:21:34
+
+
 SLACKBUILD NAME: APScheduler
 SLACKBUILD LOCATION: Py2toPy3/APScheduler/
 SLACKBUILD FILES: APScheduler.SlackBuild APScheduler.dep APScheduler.info README dependees-on slack-desc slack-required
@@ -804,7 +807,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/c8/e3/b0b4f32162621
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: a9ae6ae0f85398e511bcb9ec87695eed
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python2-setuptools-scm wheel python-toml
+SLACKBUILD REQUIRES: python2-setuptools-scm python3-wheel python-toml
 PACKAGES DEPENDEES-ON: python3-stack_data thonny
 BUILD-TYPE: python setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Tim Dickson dickson.tim@googlemail.com
@@ -1644,7 +1647,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/e3/3f/41186b1f2fd86
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 2b8b23b955b43994f222f78faf17713b 05f62b3e1753a4d4043170a17f09f824 b31bf94ffe7e0f2ada93afae1076eaeb 4604e64e42b38b20a8ca446e2253ca1f d05cbf26ed52299487a802688a1d22cb 72d4eb0369ce403d9e997690d6c59743 67b7cc02856cad7f081e9dc0d8a74427 bf23cd323c33a8c283c41bb9b79e4ce4 b7f1a4cd029f5b6ffbc31b3acd5ae605 f02c179eca8c70ccdfa3f17b5c33563a 879f780b31280a6e13708c6f208e3ded d6ef43d41f0386177365372fc6012b90 05d77ef52e90ad161fdd41b252420467 80a2c27647a6acb1890a3a7de8fded72 a295edb6953237ebbdfa8e731229f9a3 74634128440dbc3766bda76fdf0aaa05 0a6cbf6ef95c7e7db7837f58db8d1773 9273d518c1b6082859f526fe56c9cd7c 2c56a546f0522e89a14f361e364d8921 5f153f7135dceb02f88266121c836b4e fba3b040a55c01be7376d3dd5c4d4920 8ec94e879650dd1d913214c3501709ed ef40e1b4c02712279f23a366674ff853 073b4c53e303ccf2a807dfce7f5e986a a0de6eabdeb1320350abcbd7c02df6ac c8be990f008bb23da1bfc717aefc5792 356934f5f780436007e02dc74f3da3e7 d74a2292a838c7a98feea8bacd494038 12e4ba5909e1f30b9142932571eaa4da 233dee08f26c9cbe78f29b66c0c20ccd 22030e124dbac93658e25bb2753d93db fe25af78df7a9c06f85cb07b336871fc 7466921869cca221afa781b96c6a24b3 7d76a523677de261dda1b65d29a93c4e 6a32bab57772c3a1146d599b65ffb0cb c7c38eb603bed6f42edbc4294806a44a 2c24d3b1b942a89c838bb60ef053d2d2 31e29b0181adb24a507832b343828e11 9f88e7edadde0f80a64bdd467ca822f1 f3230d205e69f924dbf6c7f4cebc57c1 109be3a18231631535377c6aa0ce7089 1de20a0fc1cfdf5e332cbdb2e0899a2b 16111f31a29feae4ce4a324b83dc0189 82401c70623ccc1bfc0bcb5c3b0ac8b7 4606e4a248df4d70509afded817aca14 b4a0a98a54439a5a37952c8879187ee3 f087a0412ec128b8a1a19460ae7aaf7a 5988bad1543264a9f48b542192e7de9a 02990a143ab33b69d3501d6932fdedc9 087bfc476e9d73628cebd265590f11f7 a193567f36be2b82c0fe122a67d3c1fb d18d362345c4fe512ef67b738b239fb8 db96b50050277bf05a3c68534bbb9586 09de9d01e7331ff3da11f58be8bef0df 0498c4a11448bfc35dc7bb2caa64c753 278dd3da79cc1bcf5bd22fdc2b27b929 69715da66bbce335e925305a89d700a0 f682163a28f67505957df4e8a1c10e6e fe970530473f5def15262606e730ab79 1a7c8f83d6e0c000fe06fe006c41e666
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: pyasn1 asn1crypto wheel python3-setuptools-rust
+SLACKBUILD REQUIRES: pyasn1 asn1crypto python3-wheel python3-setuptools-rust
 PACKAGES DEPENDEES-ON: buku Electrum dfvfs pyOpenSSL pyjwt pymysql python-axolotl python2-requests-kerberos python3-autobahn python3-paramiko python3-service-identity secretstorage ansible
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Willy Sudiarto Raharjo willysr@slackbuilds.org
@@ -1775,6 +1778,20 @@ PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Yth - Arnaud yth@ythogtha.org
 SLACKBUILD SHORT DESCRIPTION: decorator (decorator module for Python)
+
+SLACKBUILD NAME: defusedxml
+SLACKBUILD LOCATION: Py2toPy3/defusedxml/
+SLACKBUILD FILES: README defusedxml.SlackBuild defusedxml.info slack-desc
+SLACKBUILD VERSION: 0.7.1
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/0f/d5/c66da9b79e5bdb124974bfe172b4daf3c984ebd9c2a06e2b8a4dc7331c72/defusedxml-0.7.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: a50e7f21aa60a741efe6b1b658dfb3f8
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Markus Rinne markus.ka.rinne@gmail.com
+SLACKBUILD SHORT DESCRIPTION: defusedxml (XML bomb protection for Python stdlib modules)
 
 SLACKBUILD NAME: dfdatetime
 SLACKBUILD LOCATION: Py2toPy3/dfdatetime/
@@ -2778,7 +2795,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/06/b1/9e491df2ee1c9
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 17dd6c0415a34c0478d5c849560276bb
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel python3-hatchling python3-hatch_vcs
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel python3-hatchling python3-hatch_vcs
 PACKAGES DEPENDEES-ON: todoman
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Tonus tonus1@free.fr
@@ -2876,7 +2893,7 @@ SLACKBUILD DOWNLOAD: https://github.com/ics-py/ics-py/archive/v0.7.2/ics-py-0.7.
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 1652309556df484ef06c7a92b9f41dbf
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel python3-attrs python3-arrow TatSu
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel python3-attrs python3-arrow TatSu
 PACKAGES DEPENDEES-ON: calcure
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Tonus tonus1@free.fr
@@ -2928,13 +2945,13 @@ SLACKBUILD NAME: iniconfig
 SLACKBUILD LOCATION: Py2toPy3/iniconfig/
 SLACKBUILD FILES: README iniconfig.SlackBuild iniconfig.info slack-desc
 SLACKBUILD VERSION: 1.1.1
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/23/a2/97899f6bd0e873fed3a7e67ae8d3a08b21799430fb4da15cfedf10d6e2c2/iniconfig-1.1.1.tar.gz
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/i/iniconfig/iniconfig-1.1.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 0b7f3be87481211c183eae095bcea6f1
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
+BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
 SLACKBUILD SHORT DESCRIPTION: iniconfig (ini file parsing)
 
@@ -2997,10 +3014,10 @@ SLACKBUILD SHORT DESCRIPTION: ipaddr-py (IPv4/IPv6 manipulation library in Pytho
 SLACKBUILD NAME: ipython
 SLACKBUILD LOCATION: Py2toPy3/ipython/
 SLACKBUILD FILES: README dependees-on ipython.SlackBuild ipython.dep ipython.info slack-desc slack-required
-SLACKBUILD VERSION: 8.12.0
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/i/ipython/ipython-8.12.0.tar.gz
+SLACKBUILD VERSION: 8.13.0
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/i/ipython/ipython-8.13.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 06ab1d0a2a478d2b5138d8347f0405af
+SLACKBUILD MD5SUM: 11ac162f37c6569c4b7f5de2dc039b89
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: decorator python3-jedi python3-pexpect python3-matplotlib-inline pickleshare python3-prompt_toolkit backcall python3-stack_data typing-extensions
 PACKAGES DEPENDEES-ON: jupyter-ipykernel python3-ipython-sql
@@ -3325,7 +3342,7 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ddb9f25a41ca5fb4f7d174a9d74bfa46
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: BeautifulSoup4 python2-BeautifulSoup4 html5lib
-PACKAGES DEPENDEES-ON: compiz-boxmenu recoll thunar-custom-actions lutris OWSLib pytrainer inkscape textext pyPEG2 gourmet OpenLP radiotray RYMTracks w3af yle-dl sigil trelby et_xmlfile euca2ools html5-parser jdcal odoo parsel pikepdf pyquery python3-obspy relatorio afdko piper yelp-xsl
+PACKAGES DEPENDEES-ON: compiz-boxmenu recoll thunar-custom-actions lutris OWSLib pytrainer inkscape inkscape-gtk2 textext pyPEG2 gourmet OpenLP radiotray RYMTracks w3af yle-dl sigil trelby et_xmlfile euca2ools html5-parser jdcal odoo parsel pikepdf pyquery python3-obspy relatorio afdko piper yelp-xsl
 BUILD-TYPE: python2 setup.py build --with-unicode-strings python2 setup.py install --skip-build --root=$PKG python3 setup.py build --with-unicode-strings python3 setup.py install --skip-build --root=$PKG
 SLACKBUILD MAINTAINER: Larry Hajali larryhaja[at]gmail[dot]com
 SLACKBUILD SHORT DESCRIPTION: lxml (Python bindings for libxml2 and libxslt)
@@ -3954,7 +3971,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/pelican/pe
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ca1169eeed239f82c3402af27b0aece7
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel feedgenerator Unidecode python3-blinker pytz python3-dateutil python3-rich
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel feedgenerator Unidecode python3-blinker pytz python3-dateutil python3-rich
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -4746,13 +4763,13 @@ SLACKBUILD SHORT DESCRIPTION: pygrametl (ETL programming in Python)
 
 SLACKBUILD NAME: pygsl
 SLACKBUILD LOCATION: Py2toPy3/pygsl/
-SLACKBUILD FILES: README dependees-on pygsl.SlackBuild pygsl.dep pygsl.info slack-desc slack-required
+SLACKBUILD FILES: README dependees-on pygsl.SlackBuild pygsl.dep pygsl.info remove_swig_dep_for_gls_wrappers.patch slack-desc slack-required
 SLACKBUILD VERSION: 2.3.3
 SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/15/f4/139020a271ebd4dd25b8db53edca042d49890bda53587a904e0fa75310b0/pygsl-2.3.3.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 348c64a43d9bc547b092a00930c1c005
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-numpy wheel
+SLACKBUILD REQUIRES: python3-numpy python3-wheel
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 setup.py config python3 setup.py build python3 setup.py install --root=$PKG --prefix=/usr
 SLACKBUILD MAINTAINER: Fellype do Nascimento fellype (at) gmail (dot) com
@@ -4864,7 +4881,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/cf/5a/25aeb636baece
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 8c6c57893327a694c72510fb620e4744
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: cffi wheel
+SLACKBUILD REQUIRES: cffi python3-wheel
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
@@ -5528,6 +5545,20 @@ BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root
 SLACKBUILD MAINTAINER: Alexander Verbovetsky alik@ejik.org
 SLACKBUILD SHORT DESCRIPTION: python-gmpy2 (multi-precision arithmetic for python)
 
+SLACKBUILD NAME: python-gssapi
+SLACKBUILD LOCATION: Py2toPy3/python-gssapi/
+SLACKBUILD FILES: README dependees-on python-gssapi.SlackBuild python-gssapi.dep python-gssapi.info slack-desc slack-required
+SLACKBUILD VERSION: 1.8.2
+SLACKBUILD DOWNLOAD: https://github.com/pythongssapi/python-gssapi/archive/v1.8.2/python-gssapi-1.8.2.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: bbb679bcd65ee541c32188aa993c0769
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES: decorator
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Thibaut Notteboom thibaut.notteboom@gmail.com
+SLACKBUILD SHORT DESCRIPTION: python-gssapi (Python Bindings for GSSAPI)
+
 SLACKBUILD NAME: python-ipcalc
 SLACKBUILD LOCATION: Py2toPy3/python-ipcalc/
 SLACKBUILD FILES: README python-ipcalc.SlackBuild python-ipcalc.info slack-desc
@@ -5578,7 +5609,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/d6/f4/154cf374c2daf
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 7e2151e9197c751ceca6550bc6b3294c
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build wheel python3-installer python3-flit_core
+SLACKBUILD REQUIRES: python3-build python3-wheel python3-installer
 PACKAGES DEPENDEES-ON: secretstorage
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Andrew Clemons andrew.clemons@gmail.com
@@ -5625,6 +5656,20 @@ PACKAGES DEPENDEES-ON: OpenCobolIDE spyder gajim twine urlwatch
 BUILD-TYPE: python setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Dimitris Zlatanidis d.zlatanidis@gmail.com
 SLACKBUILD SHORT DESCRIPTION: python-keyring (Python keyring library)
+
+SLACKBUILD NAME: python-krb5
+SLACKBUILD LOCATION: Py2toPy3/python-krb5/
+SLACKBUILD FILES: README python-krb5.SlackBuild python-krb5.info slack-desc
+SLACKBUILD VERSION: 0.5.0
+SLACKBUILD DOWNLOAD: https://github.com/jborean93/pykrb5/archive/v0.5.0/pykrb5-0.5.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: bace0738b8a319d7115d5543fcec7c7e
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Thibaut Notteboom thibaut.notteboom@gmail.com
+SLACKBUILD SHORT DESCRIPTION: python-krb5 (Python Kerberos 5 Library)
 
 SLACKBUILD NAME: python-libarchive-c
 SLACKBUILD LOCATION: Py2toPy3/python-libarchive-c/
@@ -6256,6 +6301,20 @@ BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Dimitris Zlatanidis d.zlatanidis@gmail.com
 SLACKBUILD SHORT DESCRIPTION: python2-Safe (Check the password strength)
 
+SLACKBUILD NAME: python2-asn1crypto
+SLACKBUILD LOCATION: Py2toPy3/python2-asn1crypto/
+SLACKBUILD FILES: README python2-asn1crypto.SlackBuild python2-asn1crypto.info slack-desc
+SLACKBUILD VERSION: 1.5.1
+SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/a/asn1crypto/asn1crypto-1.5.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: f7a5271af9b81246fbdf57d703afce2f
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python2 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python2-asn1crypto (Fast ASN.1 parser and serializer)
+
 SLACKBUILD NAME: python2-attrs
 SLACKBUILD LOCATION: Py2toPy3/python2-attrs/
 SLACKBUILD FILES: README python2-attrs.SlackBuild python2-attrs.info slack-desc
@@ -6306,7 +6365,7 @@ SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/A/Automat/Automat-2
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: b8064994239aabb172748f984489ce75
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python2-setuptools-scm python2-attrs wheel
+SLACKBUILD REQUIRES: python2-setuptools-scm python2-attrs python3-wheel
 PACKAGES DEPENDEES-ON: python2-twisted
 BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Yth - Arnaud yth@ythogtha.org
@@ -6390,7 +6449,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/d4/85/3871544825340
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e2ce2ec8a63965fad351f36ed70fde4b
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: pyasn1 cffi ipaddress asn1crypto wheel
+SLACKBUILD REQUIRES: pyasn1 cffi ipaddress asn1crypto python3-wheel
 PACKAGES DEPENDEES-ON: python2-paramiko
 BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Heinz Wiesinger pprkut@slackbuilds.org
@@ -6620,6 +6679,20 @@ BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Heinz Wiesinger pprkut@slackbuilds.org
 SLACKBUILD SHORT DESCRIPTION: python2-gattlib (Bluetooth LE protocol library)
 
+SLACKBUILD NAME: python2-gmpy2
+SLACKBUILD LOCATION: Py2toPy3/python2-gmpy2/
+SLACKBUILD FILES: README python2-gmpy2.SlackBuild python2-gmpy2.info slack-desc
+SLACKBUILD VERSION: 2.1.5
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/d9/2e/2848cb5ab5240cb34b967602990450d0fd715f013806929b2f82821cef7f/gmpy2-2.1.5.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 0cd8e9d89c2f9d018eb52d2983abaeb4
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python2 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Alexander Verbovetsky alik@ejik.org
+SLACKBUILD SHORT DESCRIPTION: python2-gmpy2 (multi-precision arithmetic for python)
+
 SLACKBUILD NAME: python2-keyczar
 SLACKBUILD LOCATION: Py2toPy3/python2-keyczar/
 SLACKBUILD FILES: README dependees-on python2-keyczar.SlackBuild python2-keyczar.dep python2-keyczar.info slack-desc slack-required
@@ -6684,7 +6757,7 @@ SLACKBUILD DOWNLOAD: https://github.com/python-ldap/python-ldap/archive/python-l
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: f20b7b2aaf63d30839ebad32329c9164
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: coverage pyasn1-modules
+SLACKBUILD REQUIRES: coverage python2-pyasn1-modules
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Thibaut Notteboom thibaut.notteboom@gmail.com
@@ -7053,6 +7126,48 @@ PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
 SLACKBUILD SHORT DESCRIPTION: python2-psutil (python interface for process and system info)
+
+SLACKBUILD NAME: python2-py
+SLACKBUILD LOCATION: Py2toPy3/python2-py/
+SLACKBUILD FILES: README dependees-on python2-py.SlackBuild python2-py.dep python2-py.info slack-desc slack-required
+SLACKBUILD VERSION: 1.11.0
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/py/py-1.11.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: bde7dcc1cb452a1e10206ef2f811ba88
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES: python2-setuptools-scm
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python2 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python2-py (library with cross-python path)
+
+SLACKBUILD NAME: python2-pyasn1-modules
+SLACKBUILD LOCATION: Py2toPy3/python2-pyasn1-modules/
+SLACKBUILD FILES: README dependees-on python2-pyasn1-modules.SlackBuild python2-pyasn1-modules.dep python2-pyasn1-modules.info slack-desc slack-required
+SLACKBUILD VERSION: 0.3.0
+SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/p/pyasn1_modules/pyasn1_modules-0.3.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 94ee572b06ae09f1903b11333575b091
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES: python2-pyasn1
+PACKAGES DEPENDEES-ON: Electrum-DASH python2-ldap service_identity
+BUILD-TYPE: python2 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Yth - Arnaud yth@ythogtha.org
+SLACKBUILD SHORT DESCRIPTION: pyasn1-modules (A collection of ASN.1-based protocols modules.)
+
+SLACKBUILD NAME: python2-pyasn1
+SLACKBUILD LOCATION: Py2toPy3/python2-pyasn1/
+SLACKBUILD FILES: README python2-pyasn1.SlackBuild python2-pyasn1.info slack-desc
+SLACKBUILD VERSION: 0.4.8
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/pyasn1/pyasn1-0.4.8.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: dffae4ff9f997a83324b3f33fe62be54
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python2 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python2-pyasn1 (ASN.1 types and codecs in Python)
 
 SLACKBUILD NAME: python2-pybluez
 SLACKBUILD LOCATION: Py2toPy3/python2-pybluez/
@@ -8037,10 +8152,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-aiostream (collection of stream operators)
 SLACKBUILD NAME: python3-alembic
 SLACKBUILD LOCATION: Py2toPy3/python3-alembic/
 SLACKBUILD FILES: README dependees-on python3-alembic.SlackBuild python3-alembic.dep python3-alembic.info slack-desc slack-required
-SLACKBUILD VERSION: 1.10.3
-SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/a/alembic/alembic-1.10.3.tar.gz
+SLACKBUILD VERSION: 1.10.4
+SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/a/alembic/alembic-1.10.4.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: d855ef36a3d4e3fcda8a16f0327b6a9a
+SLACKBUILD MD5SUM: adba1f8a2d73599aacd26a733309a491
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: SQLAlchemy greenlet
 PACKAGES DEPENDEES-ON: Kallithea buildbot
@@ -8104,6 +8219,20 @@ BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
 SLACKBUILD SHORT DESCRIPTION: python3-arrow (python library for dates, times)
 
+SLACKBUILD NAME: python3-asn1crypto
+SLACKBUILD LOCATION: Py2toPy3/python3-asn1crypto/
+SLACKBUILD FILES: README python3-asn1crypto.SlackBuild python3-asn1crypto.info slack-desc
+SLACKBUILD VERSION: 1.5.1
+SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/a/asn1crypto/asn1crypto-1.5.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: f7a5271af9b81246fbdf57d703afce2f
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python3-asn1crypto (Fast ASN.1 parser and serializer)
+
 SLACKBUILD NAME: python3-astroid
 SLACKBUILD LOCATION: Py2toPy3/python3-astroid/
 SLACKBUILD FILES: README dependees-on python3-astroid.SlackBuild python3-astroid.dep python3-astroid.info slack-desc slack-required
@@ -8126,7 +8255,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/3f/72/614aae677d28e
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 6d541c82592568dc0dfcecf57978b326
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: wheel python3-build python3-installer
+SLACKBUILD REQUIRES: python3-wheel python3-build python3-installer
 PACKAGES DEPENDEES-ON: wxPython4
 BUILD-TYPE: python3 -m build --wheel --no-isolation python3 -m installer --destdir "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Willy Sudiarto Raharjo willysr@slackbuilds.org
@@ -8196,7 +8325,7 @@ SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/A/Automat/Automat-2
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: b8064994239aabb172748f984489ce75
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-attrs wheel
+SLACKBUILD REQUIRES: python3-attrs python3-wheel
 PACKAGES DEPENDEES-ON: python3-twisted
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Yth - Arnaud yth@ythogtha.org
@@ -8336,7 +8465,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/57/d9/9eae7bc4ba3a3
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: a5bbdb108b0fc58a6f7effcc27c51285
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: wheel
+SLACKBUILD REQUIRES: python3-wheel
 PACKAGES DEPENDEES-ON: Type1_to_OTF
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Duncan Roe duncan_roe@optusnet.com.au
@@ -8378,7 +8507,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/c/calver/cal
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e1fd924b9bf953c0b28c49bdfe117d7a
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: python3-trove-classifiers
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -8451,7 +8580,7 @@ SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-jsonlines BeautifulSoup4
 PACKAGES DEPENDEES-ON: certbot-dns-cloudflare
 BUILD-TYPE: python3 setup.py install --root=$PKG
-SLACKBUILD MAINTAINER: S. S. Bolokanar sbolokanov@abv.bg
+SLACKBUILD MAINTAINER: S. S. Bolokanar bolokanar@bulgars.org
 SLACKBUILD SHORT DESCRIPTION: python3-cloudflare (a python wrapper for the Cloudflare Client API)
 
 SLACKBUILD NAME: python3-cmake-build-extension
@@ -8686,7 +8815,7 @@ SLACKBUILD DOWNLOAD: https://github.com/pypa/distlib/releases/download/0.3.6/dis
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: f60ba4e3f8e76c214d3d00b2227a16f7
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: python3-virtualenv
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Jeremy Hansen jebrhansen+SBo@gmail.com
@@ -8714,7 +8843,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/d/docker/doc
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 8e85e23ed30a3d07129e197d35e56eb4
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel python3-websocket-client
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel python3-websocket-client
 PACKAGES DEPENDEES-ON: python3-docker-compose
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -8784,7 +8913,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/e/editables/
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e91709fbb0ef586cb7b785042068ab67
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: python3-hatchling
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -8918,14 +9047,14 @@ SLACKBUILD SHORT DESCRIPTION: python3-flit (Simplified packaging of Python modul
 
 SLACKBUILD NAME: python3-flit_core
 SLACKBUILD LOCATION: Py2toPy3/python3-flit_core/
-SLACKBUILD FILES: README python3-flit_core.SlackBuild python3-flit_core.info slack-desc
+SLACKBUILD FILES: README dependees-on python3-flit_core.SlackBuild python3-flit_core.dep python3-flit_core.info slack-desc slack-required
 SLACKBUILD VERSION: 3.8.0
 SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/f/flit_core/flit_core-3.8.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 7c41da13273f7787709a24f74e0f5a99
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
-PACKAGES DEPENDEES-ON:
+PACKAGES DEPENDEES-ON: yle-dl argon2-cffi python-jeepney python3-Flask-Dance python3-confuse python3-flit_scm python3-mdurl python3-mediafile python3-more-itertools python3-pathspec python3-seaborn python3-threadpoolctl python3-tomli_w testpath typing-extensions
 BUILD-TYPE: python3 -m flit_core.wheel python3 bootstrap_install.py --install-root "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
 SLACKBUILD SHORT DESCRIPTION: python3-flit_core (Simplified pkging of Python modules, core backend)
@@ -9092,7 +9221,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/g/gensim/gen
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: cb32008b23b8b68586cc59f44838bb5f
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-scipy python3-smart_open wheel
+SLACKBUILD REQUIRES: python3-scipy python3-smart_open python3-wheel
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -9153,6 +9282,20 @@ PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
 SLACKBUILD SHORT DESCRIPTION: python3-glances (cross-platform, curses-based system monitoring tool)
+
+SLACKBUILD NAME: python3-gmpy2
+SLACKBUILD LOCATION: Py2toPy3/python3-gmpy2/
+SLACKBUILD FILES: README python3-gmpy2.SlackBuild python3-gmpy2.info slack-desc
+SLACKBUILD VERSION: 2.1.5
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/d9/2e/2848cb5ab5240cb34b967602990450d0fd715f013806929b2f82821cef7f/gmpy2-2.1.5.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 0cd8e9d89c2f9d018eb52d2983abaeb4
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Alexander Verbovetsky alik@ejik.org
+SLACKBUILD SHORT DESCRIPTION: python3-gmpy2 (multi-precision arithmetic for python)
 
 SLACKBUILD NAME: python3-guessit
 SLACKBUILD LOCATION: Py2toPy3/python3-guessit/
@@ -9456,7 +9599,7 @@ SLACKBUILD DOWNLOAD: https://github.com/bolsote/isoduration/releases/download/20
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 865d2cb9d07342ea66c75cbf8a425cba
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-arrow python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-arrow python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: jupyter_server
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -9512,7 +9655,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/j/jaraco.cla
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: a661acdae43995c08500324a8df62f03
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-more-itertools wheel
+SLACKBUILD REQUIRES: python3-more-itertools python3-wheel
 PACKAGES DEPENDEES-ON: python3-jaraco.collections
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -9540,7 +9683,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/j/jaraco.con
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: b40aeeda6a07dd283f2a407f622cda5b
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: python3-jaraco.text
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -9554,7 +9697,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/j/jaraco.fun
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 926df6739a1b2b46b79f34e13e944cba
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-more-itertools wheel
+SLACKBUILD REQUIRES: python3-more-itertools python3-wheel
 PACKAGES DEPENDEES-ON: python3-cheroot python3-jaraco.text python3-tempora
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -9655,7 +9798,7 @@ SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-attrs
 PACKAGES DEPENDEES-ON: python3-cloudflare
 BUILD-TYPE: python3 setup.py install --root=$PKG
-SLACKBUILD MAINTAINER: S. S. Bolokanar sbolokanov@abv.bg
+SLACKBUILD MAINTAINER: S. S. Bolokanar bolokanar@bulgars.org
 SLACKBUILD SHORT DESCRIPTION: python3-jsonlines (a python library for jsonlines and ndjson data)
 
 SLACKBUILD NAME: python3-jsonschema
@@ -9680,7 +9823,7 @@ SLACKBUILD DOWNLOAD: https://github.com/nucleic/kiwi/releases/download/1.4.4/kiw
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 34796908455c3b23c889439b541e424b
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: cppy python3-build python3-installer wheel
+SLACKBUILD REQUIRES: cppy python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: python3-matplotlib
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -9694,7 +9837,7 @@ SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/k/klein/klein-21.8.
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 98c5101185c7fe2bd1e0a80ef0489e07
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-tubes werkzeug wheel
+SLACKBUILD REQUIRES: python3-tubes werkzeug python3-wheel
 PACKAGES DEPENDEES-ON: buildbot-badges
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Yth - Arnaud yth@ythogtha.org
@@ -9736,7 +9879,7 @@ SLACKBUILD DOWNLOAD: https://github.com/python-ldap/python-ldap/archive/python-l
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: b13912982b013bd7b63d07edfdf3a538
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: coverage pyasn1-modules
+SLACKBUILD REQUIRES: coverage python3-pyasn1-modules
 PACKAGES DEPENDEES-ON: odoo
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Thibaut Notteboom thibaut.notteboom@gmail.com
@@ -9820,7 +9963,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/python-lsp
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 2c965860206e18fc192bbe6bd908edd9
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: wheel python3-jedi python3-pluggy python3-lsp-jsonrpc
+SLACKBUILD REQUIRES: python3-wheel python3-jedi python3-pluggy python3-lsp-jsonrpc
 PACKAGES DEPENDEES-ON: python3-lsp-black python3-pyls-spyder
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -9834,7 +9977,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/b1/e1/4527cb8ae9f08
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 678a2e62ee5779789c24c96901e9111c
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: wheel python3-pkgconfig
+SLACKBUILD REQUIRES: python3-wheel python3-pkgconfig
 PACKAGES DEPENDEES-ON: plaso
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Barry J. Grundy bgrundy<at>linuxleo.com
@@ -10044,7 +10187,7 @@ SLACKBUILD DOWNLOAD: https://github.com/nltk/nltk/archive/refs/tags/3.8.1/nltk-3
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e8a74c5fd3ac8f789768636f20cba998
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-regex python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-regex python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: RYMTracks w3af
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: ArTourter artourter@gmail.com
@@ -10422,7 +10565,7 @@ SLACKBUILD DOWNLOAD: https://pypi.io/packages/source/p/psutil/psutil-5.9.4.tar.g
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: f72751d05b781757b7cd9bc375d2e351
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: menulibre nwg-panel jupyter-ipykernel neovim-remote pychess ueberzug flexget persepolis speedometer memory-profiler odoo plaso python3-glances letsencrypt locust mongodb psuinfo trash-cli
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -10534,11 +10677,53 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/py-cpuinfo
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: b323b82dddf2e47bc554c124586c16dc
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
 SLACKBUILD SHORT DESCRIPTION: python3-py-cpuinfo (retrieve CPU information)
+
+SLACKBUILD NAME: python3-py
+SLACKBUILD LOCATION: Py2toPy3/python3-py/
+SLACKBUILD FILES: README python3-py.SlackBuild python3-py.info slack-desc
+SLACKBUILD VERSION: 1.11.0
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/py/py-1.11.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: bde7dcc1cb452a1e10206ef2f811ba88
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python3-py (library with cross-python path)
+
+SLACKBUILD NAME: python3-pyasn1-modules
+SLACKBUILD LOCATION: Py2toPy3/python3-pyasn1-modules/
+SLACKBUILD FILES: README dependees-on python3-pyasn1-modules.SlackBuild python3-pyasn1-modules.dep python3-pyasn1-modules.info slack-desc slack-required
+SLACKBUILD VERSION: 0.3.0
+SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/p/pyasn1_modules/pyasn1_modules-0.3.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 94ee572b06ae09f1903b11333575b091
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES: python3-pyasn1
+PACKAGES DEPENDEES-ON: python3-ldap python3-service-identity
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Yth - Arnaud yth@ythogtha.org
+SLACKBUILD SHORT DESCRIPTION: pyasn1-modules (A collection of ASN.1-based protocols modules.)
+
+SLACKBUILD NAME: python3-pyasn1
+SLACKBUILD LOCATION: Py2toPy3/python3-pyasn1/
+SLACKBUILD FILES: README python3-pyasn1.SlackBuild python3-pyasn1.info slack-desc
+SLACKBUILD VERSION: 0.4.8
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/pyasn1/pyasn1-0.4.8.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: dffae4ff9f997a83324b3f33fe62be54
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python3-pyasn1 (ASN.1 types and codecs in Python)
 
 SLACKBUILD NAME: python3-pybluez
 SLACKBUILD LOCATION: Py2toPy3/python3-pybluez/
@@ -10590,7 +10775,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/pydantic/p
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 4279a3a76b4c287b444d7ce37fed02c2
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-installer python3-build wheel typing-extensions
+SLACKBUILD REQUIRES: python3-installer python3-build python3-wheel typing-extensions
 PACKAGES DEPENDEES-ON: python3-inflect
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -10660,7 +10845,7 @@ SLACKBUILD DOWNLOAD: https://github.com/jgosmann/pylint-venv/archive/v3.0.1/pyli
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: a9f0f817cd9b5c4eafb13561c6ab72c6
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-pylint python3-virtualenv python3-poetry-core wheel
+SLACKBUILD REQUIRES: python3-pylint python3-virtualenv python3-poetry-core python3-wheel
 PACKAGES DEPENDEES-ON: spyder
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -10744,7 +10929,7 @@ SLACKBUILD DOWNLOAD: https://github.com/JessicaTegner/pypandoc/archive/v1.10/pyp
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: c53ada82d653bf02717c55e1094b8784
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: pandoc-bin wheel
+SLACKBUILD REQUIRES: pandoc-bin python3-wheel
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -10772,7 +10957,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/pypng/pypn
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 7d9cce86ceb19524784ade86fb13a063
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: python-qrcode
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -10791,6 +10976,20 @@ PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pouria Rezaei Pouria.rz@outlook.com
 SLACKBUILD SHORT DESCRIPTION: python3-pypresence (Pypresence Python3 library)
+
+SLACKBUILD NAME: python3-pyproject-hooks
+SLACKBUILD LOCATION: Py2toPy3/python3-pyproject-hooks/
+SLACKBUILD FILES: README dependees-on python3-pyproject-hooks.SlackBuild python3-pyproject-hooks.dep python3-pyproject-hooks.info slack-desc slack-required
+SLACKBUILD VERSION: 1.0.0
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/pyproject_hooks/pyproject_hooks-1.0.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 69b0b6de189bc04c3f9e304281765741
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES: python3-flit_core python3-installer
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python3 -m flit_core.wheel python3 -m installer -d "$PKG" dist/*.whl
+SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
+SLACKBUILD SHORT DESCRIPTION: python3-pyproject-hooks (Wrappers to call PEP 517 build backend hooks)
 
 SLACKBUILD NAME: python3-pyrsistent
 SLACKBUILD LOCATION: Py2toPy3/python3-pyrsistent/
@@ -10842,7 +11041,7 @@ SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/p/pytest-runner/pyt
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 74f14ba3b07bb7ef96da4108f3f2921b
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-pytest python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-pytest python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: dropbox-python cairocffi python3-pythran python3-rfc3986_validator
 BUILD-TYPE: python3 -m build --wheel --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -11094,7 +11293,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/r/requests_c
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e3526ba7302958c77e90a4694daa38cd
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: wheel python3-platformdirs python3-cattrs python3-url-normalize
+SLACKBUILD REQUIRES: python3-wheel python3-platformdirs python3-cattrs python3-url-normalize
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -11220,7 +11419,7 @@ SLACKBUILD DOWNLOAD: https://github.com/Toblerity/rtree/archive/1.0.1/rtree-1.0.
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: c70d72aa1cfa232aac945735da364e9d
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: libspatialindex wheel
+SLACKBUILD REQUIRES: libspatialindex python3-wheel
 PACKAGES DEPENDEES-ON: spyder
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -11290,7 +11489,7 @@ SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/s/service-identity/
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 5e5c195d8fcedc72f9068be2ad9b5a13
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-attrs cryptography pyasn1-modules
+SLACKBUILD REQUIRES: python3-attrs cryptography python3-pyasn1-modules
 PACKAGES DEPENDEES-ON: python3-twisted
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Yth - Arnaud yth@ythogtha.org
@@ -11374,7 +11573,7 @@ SLACKBUILD DOWNLOAD: https://github.com/iterative/shtab/releases/download/v1.6.1
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: d9e0f4e3a1c46dfc7d1cce2b10aaf217
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: wheel
+SLACKBUILD REQUIRES: python3-wheel
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -11570,7 +11769,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/t/teletype/t
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: e27f8e681406626163da1062f57f6af6
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -11705,12 +11904,12 @@ SLACKBUILD SHORT DESCRIPTION: python3-tomli_w (A lil TOML writer)
 SLACKBUILD NAME: python3-tomlkit
 SLACKBUILD LOCATION: Py2toPy3/python3-tomlkit/
 SLACKBUILD FILES: README dependees-on python3-tomlkit.SlackBuild python3-tomlkit.dep python3-tomlkit.info slack-desc slack-required
-SLACKBUILD VERSION: 0.11.7
-SLACKBUILD DOWNLOAD: https://github.com/sdispater/tomlkit/releases/download/0.11.7/tomlkit-0.11.7.tar.gz
+SLACKBUILD VERSION: 0.11.8
+SLACKBUILD DOWNLOAD: https://github.com/sdispater/tomlkit/releases/download/0.11.8/tomlkit-0.11.8.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 8606dffbcb744b1c023f786015ddd8a7
+SLACKBUILD MD5SUM: 6caa167afece01b0a426ecec4197e3c1
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-poetry-core wheel
+SLACKBUILD REQUIRES: python3-poetry-core python3-wheel
 PACKAGES DEPENDEES-ON: jupyter_packaging python3-pylint
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
@@ -11733,10 +11932,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-toolz (A functional standard library for P
 SLACKBUILD NAME: python3-tornado
 SLACKBUILD LOCATION: Py2toPy3/python3-tornado/
 SLACKBUILD FILES: README python3-tornado.SlackBuild python3-tornado.info slack-desc
-SLACKBUILD VERSION: 6.3.0
-SLACKBUILD DOWNLOAD: https://github.com/tornadoweb/tornado/archive/v6.3.0/tornado-6.3.0.tar.gz
+SLACKBUILD VERSION: 6.3.1
+SLACKBUILD DOWNLOAD: https://github.com/tornadoweb/tornado/archive/v6.3.1/tornado-6.3.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 9fbe65e5321f2fd38983ab4ee8452858
+SLACKBUILD MD5SUM: 1229ff91f29a655a4f534d5c5bd2a6a3
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -11864,7 +12063,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/u/ujson/ujso
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: f93bd7aa33e3e6ed41c9e3782abe7b48
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: python3-glances python3-lsp-jsonrpc
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -12075,7 +12274,7 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ec5004c46d1905da98bb5bc1a10ddd21
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-flit_core python3-installer
-PACKAGES DEPENDEES-ON:
+PACKAGES DEPENDEES-ON: dwave-neal caffeine-ng nwg-panel nwg-shell-config nwg-wrapper python3-autotiling codespell jupyter_packaging mutagen pocketsphinx radicale asttokens cryptography humanize ics pelican pygsl pynacl python-jeepney python2-automat python2-cryptography python3-attrdict python3-automat python3-booleanOperations python3-calver python3-distlib python3-docker python3-editables python3-gensim python3-isoduration python3-jaraco.classes python3-jaraco.context python3-jaraco.functools python3-kiwisolver python3-klein python3-lsp-server python3-lz4 python3-nltk python3-psutil python3-py-cpuinfo python3-pydantic python3-pylint-venv python3-pypandoc python3-pypng python3-pytest-runner python3-requests-cache python3-rtree python3-shtab python3-teletype python3-tomlkit python3-ujson rencode tzdata afdko
 BUILD-TYPE: python3 -m flit_core.wheel python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
 SLACKBUILD SHORT DESCRIPTION: python3-wheel (A built-package format for Python)
@@ -12279,10 +12478,10 @@ SLACKBUILD SHORT DESCRIPTION: pytzdata (timezone database)
 SLACKBUILD NAME: pyudev
 SLACKBUILD LOCATION: Py2toPy3/pyudev/
 SLACKBUILD FILES: README pyudev.SlackBuild pyudev.info slack-desc
-SLACKBUILD VERSION: 0.24.0
-SLACKBUILD DOWNLOAD: https://github.com/pyudev/pyudev/archive/v0.24.0/pyudev-0.24.0.tar.gz
+SLACKBUILD VERSION: 0.24.1
+SLACKBUILD DOWNLOAD: https://github.com/pyudev/pyudev/archive/v0.24.1/pyudev-0.24.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 6ed29ce8e9a3a1e28464125bb9bdbb08
+SLACKBUILD MD5SUM: 746950ef9c2a5959db8c3cec974cb06e
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -12452,7 +12651,7 @@ SLACKBUILD DOWNLOAD: https://github.com/aresch/rencode/archive/v1.0.6/rencode-1.
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 5ad85007483c35d0d04c1e027a680f1c
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: wheel
+SLACKBUILD REQUIRES: python3-wheel
 PACKAGES DEPENDEES-ON: deluge
 BUILD-TYPE: python setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Logan Rathbone poprocks@gmail.com
@@ -12774,7 +12973,7 @@ SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/de/2a/cab6e30be82c8fcd2339
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: f509cb41ca2f8420bd8496291136d6cc
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python2-attrs characteristic pyasn1-modules pyOpenSSL
+SLACKBUILD REQUIRES: python2-attrs characteristic python2-pyasn1-modules pyOpenSSL
 PACKAGES DEPENDEES-ON: tahoe-lafs Scrapy
 BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Markus Reichelt slackbuilds@mareichelt.de
@@ -13698,7 +13897,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/t/tzdata/tzd
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 3c8f05d031770659a7d80de5159af202
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer wheel
+SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
 PACKAGES DEPENDEES-ON: flexget
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net

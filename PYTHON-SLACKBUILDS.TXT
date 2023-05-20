@@ -1,4 +1,4 @@
-18/05/2023-09:13:54
+20/05/2023-12:02:21
 
 
 SLACKBUILD NAME: APScheduler
@@ -150,7 +150,7 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 59109139636cd3323ce3cdb7bcb52ad3
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-celery python3-tgext.routes python3-gearbox python3-paginate_sqlalchemy python3-alembic python3-bcrypt python3-babel python3-backlash bleach python3-formencode python-importlib_metadata python3-beaker decorator python3-dulwich python3-ipaddr python3-paste python3-dateutil python3-urlobject python3-waitress python3-webhelpers2 python3-whoosh
-PACKAGES DEPENDEES-ON: GtkD I-Nex Kallithea PyPy PyPy3 amd-app-sdk avr8-gnu-toolchain c-toxcore cdrkit cfpeek cronie csh d-tools digimend-kernel-drivers dmd docbook-xml5 docbookMathML1mods etlegacy exim flowblade frescobaldi gambas3 getdp grub_legacy gtklock-userinfo-module kallithea-frontend kicad ldc leftwm libsidplay lilypond lvm2-lockd mailfromd mailutils mathML2dtd mimi mlt-bindings moedict-desktop.app mysql-workbench netcat-openbsd nwg-shell octave onedrive openGLRefToMan openGLRefToMan openGLRefToMan opendoas pkgconf putty qTox rosegarden rsyslog skypeforlinux soci stream2chromecast syslog-ng system76-power texi2html tilix tilix tox-extension-messages toxext uTox universal-ctags unixODBC vokoscreenNG wps-office xasm xearth yabridge zabbix_proxy zabbix_server
+PACKAGES DEPENDEES-ON: I-Nex Kallithea PyPy PyPy3 amd-app-sdk avr8-gnu-toolchain c-toxcore cdrkit cfpeek cronie csh digimend-kernel-drivers docbook-xml5 docbookMathML1mods etlegacy exim flowblade frescobaldi gambas3 getdp grub_legacy gtklock-userinfo-module kallithea-frontend kicad leftwm libsidplay lilypond lvm2-lockd mailfromd mailutils mathML2dtd mbuffer mimi mlt-bindings moedict-desktop.app mysql-workbench netcat-openbsd nwg-shell octave openGLRefToMan openGLRefToMan openGLRefToMan opendoas pkgconf putty qTox rosegarden rsyslog skypeforlinux soci stream2chromecast syslog-ng system76-power texi2html tox-extension-messages toxext uTox universal-ctags unixODBC vokoscreenNG wps-office xearth yabridge zabbix_proxy zabbix_server
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Yth - Arnaud yth@ythogtha.org
 SLACKBUILD SHORT DESCRIPTION: Kallithea (Source Code Management System)
@@ -1355,7 +1355,7 @@ SLACKBUILD MD5SUM: 08ac34aa0355f58ffc43ee57f1969ffb
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: click-didyoumean (Enable git-like did-you-mean feature in click.)
 
@@ -1411,7 +1411,7 @@ SLACKBUILD MD5SUM: 2d5f4d42cbd1da9a50a49dff4d6087ca
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: click-repl (REPL plugin for Click)
 
@@ -1873,7 +1873,7 @@ SLACKBUILD MD5SUM: 6c2f01c0581b0a6e640a3a6d3380d353
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-django
 PACKAGES DEPENDEES-ON: django-sass
-BUILD-TYPE:
+BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Prof. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: django-sass (simplest way to use Sass with Django)
 
@@ -2062,10 +2062,10 @@ SLACKBUILD SHORT DESCRIPTION: elasticsearch5 (python client for Elasticsearch)
 SLACKBUILD NAME: email-validator
 SLACKBUILD LOCATION: Py2toPy3/email-validator/
 SLACKBUILD FILES: README email-validator.SlackBuild email-validator.info slack-desc
-SLACKBUILD VERSION: 1.3.1
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/e/email-validator/email_validator-1.3.1.tar.gz
+SLACKBUILD VERSION: 2.0.0.post2
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/e/email-validator/email_validator-2.0.0.post2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 6423b8c6277ec31e7bae2a752718f4de
+SLACKBUILD MD5SUM: 44964dda9d61c47935bfa15cce1d270c
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -2202,10 +2202,10 @@ SLACKBUILD SHORT DESCRIPTION: fasteners (python package that provides useful loc
 SLACKBUILD NAME: feedgenerator
 SLACKBUILD LOCATION: Py2toPy3/feedgenerator/
 SLACKBUILD FILES: README feedgenerator.SlackBuild feedgenerator.info slack-desc
-SLACKBUILD VERSION: 2.0.0
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/f/feedgenerator/feedgenerator-2.0.0.tar.gz
+SLACKBUILD VERSION: 2.1.0
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/f/feedgenerator/feedgenerator-2.1.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 70e9904afd898363626fcc85838c961f
+SLACKBUILD MD5SUM: 5325b3e8a143760ab68b66db9de7e657
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -2601,7 +2601,7 @@ SLACKBUILD MD5SUM: 880ee1744ccabb90b7e4863e95efa143
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: hachoir (library to view and edit binary stream field by field)
 
@@ -3077,7 +3077,7 @@ SLACKBUILD MD5SUM: e255f3d73c0eb676826b8a35256852c5
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python2-setuptools-scm python-toml
 PACKAGES DEPENDEES-ON: jaraco-packaging
-BUILD-TYPE: python setup.py install --root=$PKG
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Prof. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: jaraco-packaging (Tools for packaging)
 
@@ -3244,7 +3244,7 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: c6fbe20fffa1c96485bccdde57bcf051
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: Kallithea
-PACKAGES DEPENDEES-ON: GtkD I-Nex PyPy PyPy3 amd-app-sdk avr8-gnu-toolchain c-toxcore cdrkit cfpeek cronie csh d-tools digimend-kernel-drivers dmd docbook-xml5 docbookMathML1mods etlegacy exim flowblade frescobaldi gambas3 getdp grub_legacy gtklock-userinfo-module kallithea-frontend kicad ldc leftwm libsidplay lilypond lvm2-lockd mailfromd mailutils mathML2dtd mimi mlt-bindings moedict-desktop.app mysql-workbench netcat-openbsd nwg-shell octave onedrive openGLRefToMan openGLRefToMan openGLRefToMan opendoas pkgconf putty qTox rosegarden rsyslog skypeforlinux soci stream2chromecast syslog-ng system76-power texi2html tilix tilix tox-extension-messages toxext uTox universal-ctags unixODBC vokoscreenNG wps-office xasm xearth yabridge zabbix_proxy zabbix_server
+PACKAGES DEPENDEES-ON: I-Nex PyPy PyPy3 amd-app-sdk avr8-gnu-toolchain c-toxcore cdrkit cfpeek cronie csh digimend-kernel-drivers docbook-xml5 docbookMathML1mods etlegacy exim flowblade frescobaldi gambas3 getdp grub_legacy gtklock-userinfo-module kallithea-frontend kicad leftwm libsidplay lilypond lvm2-lockd mailfromd mailutils mathML2dtd mbuffer mimi mlt-bindings moedict-desktop.app mysql-workbench netcat-openbsd nwg-shell octave openGLRefToMan openGLRefToMan openGLRefToMan opendoas pkgconf putty qTox rosegarden rsyslog skypeforlinux soci stream2chromecast syslog-ng system76-power texi2html tox-extension-messages toxext uTox universal-ctags unixODBC vokoscreenNG wps-office xearth yabridge zabbix_proxy zabbix_server
 BUILD-TYPE:
 SLACKBUILD MAINTAINER: Yth - Arnaud yth@ythogtha.org
 SLACKBUILD SHORT DESCRIPTION: kallithea-frontend (Front-end datas for Kallithea)
@@ -3279,11 +3279,11 @@ SLACKBUILD SHORT DESCRIPTION: korean_lunar_calendar (convert Korean lunar-calend
 
 SLACKBUILD NAME: license-expression
 SLACKBUILD LOCATION: Py2toPy3/license-expression/
-SLACKBUILD FILES: README dependees-on license-expression.SlackBuild license-expression.dep license-expression.info slack-desc slack-required
-SLACKBUILD VERSION: 30.0.0
-SLACKBUILD DOWNLOAD: https://pypi.io/packages/source/l/license-expression/license-expression-30.0.0.tar.gz
+SLACKBUILD FILES: README changelog dependees-on license-expression.SlackBuild license-expression.dep license-expression.info slack-desc slack-required
+SLACKBUILD VERSION: 30.1.0
+SLACKBUILD DOWNLOAD: https://pypi.io/packages/source/l/license-expression/license-expression-30.1.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 253c39f105199625d9ac35f0a50976e2
+SLACKBUILD MD5SUM: 37a93065d65d511ea70c7b93d01f8cf0
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: boolean-py
 PACKAGES DEPENDEES-ON: ion license-expression reuse-tool
@@ -3637,7 +3637,7 @@ SLACKBUILD MD5SUM: c87635e753df39cd4a6bf626bd6e2956
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: optional-django nose
 PACKAGES DEPENDEES-ON: npm
-BUILD-TYPE: python3 setup.py install --root=$PKG
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: npm (Python bindings and utils for npm.)
 
@@ -3777,7 +3777,7 @@ SLACKBUILD MD5SUM: c31e774c7a035b236beb56cf2ed7e9af
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python2-django nose
 PACKAGES DEPENDEES-ON: ion npm optional-django python-webpack
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: optional-django (Utils for providing optional support for django.)
 
@@ -3917,7 +3917,7 @@ SLACKBUILD MD5SUM: 9a1af5c605768ea5804b03b734ff0f82
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Prof. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: pathtools (File system general utilities)
 
@@ -4435,7 +4435,7 @@ SLACKBUILD MD5SUM: d2306b67d17274bca06d598b64ef7b38
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: pyblake2 (BLAKE2 hash function extension module)
 
@@ -4883,7 +4883,7 @@ SLACKBUILD MD5SUM: 8c6c57893327a694c72510fb620e4744
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: cffi python2-wheel python3-wheel
 PACKAGES DEPENDEES-ON: netsniff-ng pynacl
-BUILD-TYPE: python3 setup.py install --root=$PKG
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: pynacl (Binding to the Networking and Cryptography (NaCl) library)
 
@@ -5245,7 +5245,7 @@ SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/pytest/pyt
 SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 8e7d324528a63c2dab64a10ae028e0f2
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python2-py python2-attrs pluggy more-itertools atomicwrites funcsigs pathlib2
+SLACKBUILD REQUIRES: python2-py python2-attrs pluggy more-itertools python2-atomicwrites funcsigs pathlib2
 PACKAGES DEPENDEES-ON: Scrapy apprise dropbox-python guessit parsel pocketsphinx ptwit pylint pymux pymux pyte pyte pytest-cov pytest python2-keyutils python2-mccabe python2-pytest-runner python2-twitter rebulk
 BUILD-TYPE: python setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Dimitris Zlatanidis d.zlatanidis@gmail.com
@@ -5379,11 +5379,11 @@ SLACKBUILD SHORT DESCRIPTION: python-daemonize (python library)
 
 SLACKBUILD NAME: python-debian
 SLACKBUILD LOCATION: Py2toPy3/python-debian/
-SLACKBUILD FILES: README python-debian.SlackBuild python-debian.info slack-desc
-SLACKBUILD VERSION: 0.1.47
-SLACKBUILD DOWNLOAD: https://salsa.debian.org/python-debian-team/python-debian/-/archive/debian/0.1.47/python-debian-debian-0.1.47.tar.gz
+SLACKBUILD FILES: README changelog python-debian.SlackBuild python-debian.info slack-desc
+SLACKBUILD VERSION: 0.1.49
+SLACKBUILD DOWNLOAD: https://salsa.debian.org/python-debian-team/python-debian/-/archive/0.1.49/python-debian-0.1.49.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 74ada790bcec52b33c219a4eba061053
+SLACKBUILD MD5SUM: 761b78b8766de552f9d3f68c88f1599d
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -6080,10 +6080,10 @@ SLACKBUILD SHORT DESCRIPTION: python-smartypants (Smart Punctuation for Web Site
 SLACKBUILD NAME: python-socks
 SLACKBUILD LOCATION: Py2toPy3/python-socks/
 SLACKBUILD FILES: README python-socks.SlackBuild python-socks.info slack-desc
-SLACKBUILD VERSION: 2.2.0
-SLACKBUILD DOWNLOAD: https://github.com/romis2012/python-socks/archive/v2.2.0/python-socks-2.2.0.tar.gz
+SLACKBUILD VERSION: 2.3.0
+SLACKBUILD DOWNLOAD: https://github.com/romis2012/python-socks/archive/v2.3.0/python-socks-2.3.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: a5d427f87e3766ec140df6e19a4a1924
+SLACKBUILD MD5SUM: 141846d8204d314b08ef66af8b48b3a2
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -6171,7 +6171,7 @@ SLACKBUILD MD5SUM: 869fb44fbd56713490db7272eb36c8ae
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: python-uritemplate (A python library)
 
@@ -6213,7 +6213,7 @@ SLACKBUILD MD5SUM: 65009d7d6cf6ac70f3564ec93ff1c910
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python2-django nose optional-django mock
 PACKAGES DEPENDEES-ON: python-webpack
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: python-webpack (provides a high-level interface to a webpack server.)
 
@@ -7186,10 +7186,10 @@ SLACKBUILD SHORT DESCRIPTION: python2-progress (easy to use progress bars)
 SLACKBUILD NAME: python2-psutil
 SLACKBUILD LOCATION: Py2toPy3/python2-psutil/
 SLACKBUILD FILES: README python2-psutil.SlackBuild python2-psutil.info slack-desc
-SLACKBUILD VERSION: 5.9.4
-SLACKBUILD DOWNLOAD: https://pypi.io/packages/source/p/psutil/psutil-5.9.4.tar.gz
+SLACKBUILD VERSION: 5.9.5
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/psutil/psutil-5.9.5.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: f72751d05b781757b7cd9bc375d2e351
+SLACKBUILD MD5SUM: 864717cda1e2577b65da1f30cd37b537
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -7998,10 +7998,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-Flask-Cors (A Flask extension for handling
 SLACKBUILD NAME: python3-Flask-Dance
 SLACKBUILD LOCATION: Py2toPy3/python3-Flask-Dance/
 SLACKBUILD FILES: README dependees-on python3-Flask-Dance.SlackBuild python3-Flask-Dance.dep python3-Flask-Dance.info slack-desc slack-required
-SLACKBUILD VERSION: 6.2.0
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/f/flask-dance/Flask-Dance-6.2.0.tar.gz
+SLACKBUILD VERSION: 7.0.0
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/f/flask-dance/Flask-Dance-7.0.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: d8abc6a3700d8f8180cbf3e0c6ded115
+SLACKBUILD MD5SUM: 2a0867abe6ebe553d668560ae9476a93
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-build python3-flit_core Flask requests-oauthlib python3-urlobject python3-installer
 PACKAGES DEPENDEES-ON: EarthReader-Web FireWorks Flask-Gravatar Flask-HTMLmin Flask anki flexget locust onionshare python3-Flask-Babel python3-Flask-Basicauth python3-Flask-Bcrypt python3-Flask-Compress python3-Flask-Cors python3-Flask-Dance python3-Flask-Dance python3-Flask-Login python3-Flask-Mail python3-Flask-Principal python3-Flask-RESTX python3-Flask-RESTful python3-Flask-SQLAlchemy python3-Flask-Security-Too python3-Flask-WTF python3-Flask-httpauth python3-flask-paginate youtube-dl-server
@@ -8233,6 +8233,20 @@ BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
 SLACKBUILD SHORT DESCRIPTION: python3-aiorpcX (Generic async RPC implementation)
 
+SLACKBUILD NAME: python3-aiosignal
+SLACKBUILD LOCATION: Py2toPy3/python3-aiosignal/
+SLACKBUILD FILES: README dependees-on python3-aiosignal.SlackBuild python3-aiosignal.dep python3-aiosignal.info slack-desc slack-required
+SLACKBUILD VERSION: 1.3.1
+SLACKBUILD DOWNLOAD: https://github.com/aio-libs/aiosignal/releases/download/v1.3.1/aiosignal-1.3.1.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 2a15f4008b899377590cef4773020902
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES: python3-frozenlist
+PACKAGES DEPENDEES-ON: Electrum aiosignal antares python3-aiohttp-socks python3-aiohttp python3-aiosignal vdirsyncer
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python3-aiosignal (manage callbacks in asyncio projects)
+
 SLACKBUILD NAME: python3-aiostream
 SLACKBUILD LOCATION: Py2toPy3/python3-aiostream/
 SLACKBUILD FILES: README python3-aiostream.SlackBuild python3-aiostream.info slack-desc
@@ -8250,10 +8264,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-aiostream (collection of stream operators)
 SLACKBUILD NAME: python3-alembic
 SLACKBUILD LOCATION: Py2toPy3/python3-alembic/
 SLACKBUILD FILES: README dependees-on python3-alembic.SlackBuild python3-alembic.dep python3-alembic.info slack-desc slack-required
-SLACKBUILD VERSION: 1.10.4
-SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/a/alembic/alembic-1.10.4.tar.gz
+SLACKBUILD VERSION: 1.11.1
+SLACKBUILD DOWNLOAD: https://pypi.python.org/packages/source/a/alembic/alembic-1.11.1.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: adba1f8a2d73599aacd26a733309a491
+SLACKBUILD MD5SUM: 0dce5fdfa766b9214715d22828c636d5
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: SQLAlchemy greenlet
 PACKAGES DEPENDEES-ON: Kallithea alembic buildbot-badges buildbot kallithea-frontend le python3-alembic
@@ -8344,6 +8358,20 @@ PACKAGES DEPENDEES-ON: astroid pylint python3-astroid python3-pylint-venv python
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Dimitris Zlatanidis d.zlatanidis@gmail.com
 SLACKBUILD SHORT DESCRIPTION: python3-astroid (new abstract syntax tree from Python's ast)
+
+SLACKBUILD NAME: python3-async-timeout
+SLACKBUILD LOCATION: Py2toPy3/python3-async-timeout/
+SLACKBUILD FILES: README dependees-on python3-async-timeout.SlackBuild python3-async-timeout.dep python3-async-timeout.info slack-desc slack-required
+SLACKBUILD VERSION: 4.0.2
+SLACKBUILD DOWNLOAD: https://github.com/aio-libs/async-timeout/releases/download/v4.0.2/async-timeout-4.0.2.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 10571272b2e0fab839ec23f8293bf482
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES: typing-extensions
+PACKAGES DEPENDEES-ON: Electrum async-timeout async python3-aiohttp-socks python3-aiohttp python3-async-timeout vdirsyncer
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python3-async-timeout (asyncio-compatible timeout class)
 
 SLACKBUILD NAME: python3-atomicwrites
 SLACKBUILD LOCATION: Py2toPy3/python3-atomicwrites/
@@ -8606,7 +8634,7 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 742e7cd0a67455c1df90061b42088bd2
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-pyproject-hooks
-PACKAGES DEPENDEES-ON: CairoSVG Electrum-DASH Electrum OpenCobolIDE RYMTracks Solaar anki argon2-cffi async-timeout audible-cli audible beautysh beets buildbot-badges buildbot-worker buildbot cadabra2 cairocffi calcure codespell deluge dropbox-python exaile eyeD3 flexget gajim getfem grass httpie humanize hyfetch ics image-analyzer ipython jupyter-ipykernel jupyter-nbclassic jupyter-nbclient jupyter-nbconvert jupyter-nbformat jupyter-notebook jupyter-notebook_shim jupyter-qtconsole jupyter_client jupyter_console jupyter_core jupyter_events jupyter_packaging jupyter_server jupyter_server_terminals jupyterlab jupyterlab_pygments jupyterlab_server kicad kolorcontrol letsencrypt locust memory-profiler menulibre mongodb mp3fm mutagen mypy neovim-remote nwg-panel nwg-shell odoo paraview pelican persepolis picard-plugins picard pitivi plaso pocketsphinx pogo psuinfo puddletag pyCRAC pychess pylast python-jeepney python-keyring python-qrcode python3-CherryMusic python3-CherryPy python3-Flask-Babel python3-Flask-Dance python3-Flask-RESTX python3-aiohttp-socks python3-aiohttp python3-ase python3-astroid python3-attrdict python3-basemap python3-black python3-build python3-calver python3-cartopy python3-cattrs python3-cheroot python3-comm python3-confuse python3-diff-match-patch python3-distlib python3-docker-compose python3-docker python3-editables python3-exceptiongroup python3-filelock python3-flit python3-flit_scm python3-gensim python3-glances python3-hatch-nodejs-version python3-hatch_fancy_pypi_readme python3-hatch_jupyter_builder python3-hatch_vcs python3-hatchling python3-httpx python3-inflect python3-ipython-sql python3-iso3166 python3-isoduration python3-jaraco.classes python3-jaraco.collections python3-jaraco.context python3-jaraco.functools python3-jaraco.text python3-jsonschema python3-kiwisolver python3-klein python3-libtmux python3-lsp-black python3-lsp-jsonrpc python3-lsp-server python3-markdown-it-py python3-matplotlib-inline python3-matplotlib python3-mdurl python3-mediafile python3-more-itertools python3-nltk python3-obspy python3-pathspec python3-plumbum python3-poetry-core python3-portend python3-psutil python3-py-cpuinfo python3-pydantic python3-pylint-venv python3-pylint python3-pyls-spyder python3-pypng python3-pytest-runner python3-pythran python3-requests-cache python3-rfc3986_validator python3-rich python3-rpyc python3-scipy python3-seaborn python3-spyder-kernels python3-statsmodels python3-teletype python3-tempora python3-threadpoolctl python3-three-merge python3-tomli_w python3-tomlkit python3-trove-classifiers python3-tubes python3-twisted python3-ujson python3-url-normalize python3-virtualenv qtile quodlibet radicale recoll scikit-learn secretstorage speedometer spyder swtpm tauonmb terminado testpath thonny tmuxp todoman traitlets trash-cli twine typing-extensions tzdata ueberzug urlwatch vdirsyncer w3af whipper wxPython4 yle-dl
+PACKAGES DEPENDEES-ON: CairoSVG Electrum-DASH Electrum OpenCobolIDE RYMTracks Solaar anki argon2-cffi async-timeout audible-cli audible beautysh beets buildbot-badges buildbot-worker buildbot cadabra2 cairocffi calcure codespell deluge dropbox-python exaile eyeD3 flexget gajim getfem grass httpie humanize hyfetch ics image-analyzer ipython jupyter-ipykernel jupyter-nbclassic jupyter-nbclient jupyter-nbconvert jupyter-nbformat jupyter-notebook jupyter-notebook_shim jupyter-qtconsole jupyter_client jupyter_console jupyter_core jupyter_events jupyter_packaging jupyter_server jupyter_server_terminals jupyterlab jupyterlab_pygments jupyterlab_server kicad kolorcontrol letsencrypt locust memory-profiler menulibre mongodb mp3fm mutagen mypy neovim-remote nwg-panel nwg-shell odoo paraview pelican persepolis picard-plugins picard pitivi plaso pocketsphinx pogo psuinfo puddletag pyCRAC pychess pylast python-jeepney python-keyring python-qrcode python3-CherryMusic python3-CherryPy python3-Flask-Babel python3-Flask-Dance python3-Flask-RESTX python3-aiohttp-socks python3-aiohttp python3-ase python3-astroid python3-async-timeout python3-attrdict python3-basemap python3-black python3-build python3-calver python3-cartopy python3-cattrs python3-cheroot python3-comm python3-confuse python3-diff-match-patch python3-distlib python3-docker-compose python3-docker python3-editables python3-exceptiongroup python3-filelock python3-flit python3-flit_scm python3-gensim python3-glances python3-hatch-nodejs-version python3-hatch_fancy_pypi_readme python3-hatch_jupyter_builder python3-hatch_vcs python3-hatchling python3-httpx python3-inflect python3-ipython-sql python3-iso3166 python3-isoduration python3-jaraco.classes python3-jaraco.collections python3-jaraco.context python3-jaraco.functools python3-jaraco.text python3-jsonschema python3-kiwisolver python3-klein python3-libtmux python3-lsp-black python3-lsp-jsonrpc python3-lsp-server python3-markdown-it-py python3-mat2 python3-matplotlib-inline python3-matplotlib python3-mdurl python3-mediafile python3-more-itertools python3-nltk python3-obspy python3-pathspec python3-plumbum python3-poetry-core python3-portend python3-psutil python3-py-cpuinfo python3-pydantic python3-pylint-venv python3-pylint python3-pyls-spyder python3-pypng python3-pytest-runner python3-pythran python3-requests-cache python3-rfc3986_validator python3-rich python3-rpyc python3-scipy python3-seaborn python3-spyder-kernels python3-statsmodels python3-teletype python3-tempora python3-threadpoolctl python3-three-merge python3-tomli_w python3-tomlkit python3-trove-classifiers python3-tubes python3-twisted python3-ujson python3-url-normalize python3-virtualenv qtile quodlibet radicale recoll reuse-tool scikit-learn secretstorage speedometer spyder swtpm tauonmb terminado testpath thonny tmuxp todoman traitlets trash-cli twine typing-extensions tzdata ueberzug urlwatch vdirsyncer w3af whipper wxPython4 yle-dl
 BUILD-TYPE: python3 -m flit_core.wheel python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
 SLACKBUILD SHORT DESCRIPTION: python3-build (a simple, correct PEP517 package builder)
@@ -8950,12 +8978,12 @@ SLACKBUILD SHORT DESCRIPTION: python3-django (The Web framework for perfectionis
 SLACKBUILD NAME: python3-docker
 SLACKBUILD LOCATION: Py2toPy3/python3-docker/
 SLACKBUILD FILES: README dependees-on python3-docker.SlackBuild python3-docker.dep python3-docker.info slack-desc slack-required
-SLACKBUILD VERSION: 6.0.1
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/d/docker/docker-6.0.1.tar.gz
+SLACKBUILD VERSION: 6.1.2
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/d/docker/docker-6.1.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 8e85e23ed30a3d07129e197d35e56eb4
+SLACKBUILD MD5SUM: d0ea0e6b4ebb3f1743f8b4a0a82805a6
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel python3-websocket-client
+SLACKBUILD REQUIRES: python3-build python3-wheel python3-websocket-client
 PACKAGES DEPENDEES-ON: docker-cli docker python3-docker-compose python3-docker subuser
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -9269,6 +9297,20 @@ BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
 SLACKBUILD SHORT DESCRIPTION: python3-fqdn (Python FQDN Fully-Qualified Domain Names)
 
+SLACKBUILD NAME: python3-frozenlist
+SLACKBUILD LOCATION: Py2toPy3/python3-frozenlist/
+SLACKBUILD FILES: README python3-frozenlist.SlackBuild python3-frozenlist.info slack-desc
+SLACKBUILD VERSION: 1.3.3
+SLACKBUILD DOWNLOAD: https://github.com/aio-libs/frozenlist/releases/download/v1.3.3/frozenlist-1.3.3.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 14e9ffd849c6a1dfa3c6b1fb1ff77b14
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python3-frozenlist (list-like structure)
+
 SLACKBUILD NAME: python3-fs
 SLACKBUILD LOCATION: Py2toPy3/python3-fs/
 SLACKBUILD FILES: README python3-fs.SlackBuild python3-fs.info slack-desc
@@ -9538,10 +9580,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-hatch_vcs (Hatch plugin for versioning wit
 SLACKBUILD NAME: python3-hatchling
 SLACKBUILD LOCATION: Py2toPy3/python3-hatchling/
 SLACKBUILD FILES: README dependees-on python3-hatchling.SlackBuild python3-hatchling.dep python3-hatchling.info slack-desc slack-required
-SLACKBUILD VERSION: 1.14.0
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/h/hatchling/hatchling-1.14.0.tar.gz
+SLACKBUILD VERSION: 1.17.0
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/h/hatchling/hatchling-1.17.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: a59581fd0997863a2fff8e1926225b04
+SLACKBUILD MD5SUM: f5592f06bd5f567ce566cb085147cdce
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-editables python3-pathspec python3-pluggy python3-trove-classifiers
 PACKAGES DEPENDEES-ON: anki audible-cli audible eyeD3 flexget humanize ipython jupyter-ipykernel jupyter-nbclassic jupyter-nbclient jupyter-nbconvert jupyter-nbformat jupyter-notebook jupyter-notebook_shim jupyter-qtconsole jupyter_client jupyter_console jupyter_core jupyter_events jupyter_server jupyter_server_terminals jupyterlab jupyterlab_server pylast python3-Flask-RESTX python3-black python3-comm python3-docker-compose python3-filelock python3-hatch-nodejs-version python3-hatch_fancy_pypi_readme python3-hatch_jupyter_builder python3-hatch_vcs python3-hatchling python3-httpx python3-ipython-sql python3-jsonschema python3-lsp-black python3-matplotlib-inline python3-plumbum python3-pylint-venv python3-rpyc python3-spyder-kernels python3-virtualenv spyder tauonmb terminado todoman traitlets
@@ -9930,10 +9972,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-json-logger (json log formatter)
 SLACKBUILD NAME: python3-json5
 SLACKBUILD LOCATION: Py2toPy3/python3-json5/
 SLACKBUILD FILES: README python3-json5.SlackBuild python3-json5.info slack-desc
-SLACKBUILD VERSION: 0.9.13
-SLACKBUILD DOWNLOAD: https://github.com/dpranke/pyjson5/archive/v0.9.13/pyjson5-0.9.13.tar.gz
+SLACKBUILD VERSION: 0.9.14
+SLACKBUILD DOWNLOAD: https://github.com/dpranke/pyjson5/archive/v0.9.14/pyjson5-0.9.14.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 22aec9b0dd23f3ab4fed2f8af84d3a0a
+SLACKBUILD MD5SUM: 93472ea83886cfcc7e922f24aa3a33ad
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -10070,10 +10112,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-libtmux (python api for tmux)
 SLACKBUILD NAME: python3-loguru
 SLACKBUILD LOCATION: Py2toPy3/python3-loguru/
 SLACKBUILD FILES: README python3-loguru.SlackBuild python3-loguru.info slack-desc
-SLACKBUILD VERSION: 0.6.0
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/l/loguru/loguru-0.6.0.tar.gz
+SLACKBUILD VERSION: 0.7.0
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/l/loguru/loguru-0.7.0.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: a2c3bde7ed24a843b4e6ed0382bf8311
+SLACKBUILD MD5SUM: 1c5605744d7810642ccedcde13ba8529
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -10164,6 +10206,20 @@ PACKAGES DEPENDEES-ON:
 BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Dimitris Zlatanidis d.zlatanidis@gmail.com
 SLACKBUILD SHORT DESCRIPTION: python3-markdown2 (Python implementation of Markdown)
+
+SLACKBUILD NAME: python3-mat2
+SLACKBUILD LOCATION: Py2toPy3/python3-mat2/
+SLACKBUILD FILES: README dependees-on python3-mat2.SlackBuild python3-mat2.dep python3-mat2.info slack-desc slack-required
+SLACKBUILD VERSION: 0.13.3
+SLACKBUILD DOWNLOAD: https://0xacab.org/jvoisin/mat2/-/archive/0.13.3/mat2-0.13.3.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 1c0d0890ab620553472e7d58161ec891
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES: mutagen
+PACKAGES DEPENDEES-ON: python3-mat2
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Lockywolf for_sbo.mat2_2023-05-17@lockywolf.net
+SLACKBUILD SHORT DESCRIPTION: python3-mat2 (A metadata removal tool)
 
 SLACKBUILD NAME: python3-matplotlib-inline
 SLACKBUILD LOCATION: Py2toPy3/python3-matplotlib-inline/
@@ -10678,7 +10734,7 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 56a3df28a8a398947844026b75d7ae75
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-build python3-installer
-PACKAGES DEPENDEES-ON: audible-cli audible beautysh et eyeD3 flexget httpie jupyter-nbclassic jupyter-nbconvert jupyter-notebook jupyter-notebook_shim jupyter_packaging jupyter_server jupyterlab jupyterlab_pygments jupyterlab_server pelican pylast python3-Flask-Babel python3-cattrs python3-httpx python3-libtmux python3-poetry-core python3-pylint-venv python3-pylint python3-requests-cache python3-rich python3-tomlkit python3-url-normalize spyder tauonmb thonny tmuxp twine
+PACKAGES DEPENDEES-ON: audible-cli audible beautysh et eyeD3 flexget httpie jupyter-nbclassic jupyter-nbconvert jupyter-notebook jupyter-notebook_shim jupyter_packaging jupyter_server jupyterlab jupyterlab_pygments jupyterlab_server pelican pylast python3-Flask-Babel python3-cattrs python3-httpx python3-libtmux python3-poetry-core python3-pylint-venv python3-pylint python3-requests-cache python3-rich python3-tomlkit python3-url-normalize reuse-tool spyder tauonmb thonny tmuxp twine
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
 SLACKBUILD SHORT DESCRIPTION: python3-poetry-core (PEP 517 build backend impl. developed for Poetry)
@@ -10756,12 +10812,12 @@ SLACKBUILD SHORT DESCRIPTION: python3-psautohint (Python wrapper for Adobe's Pos
 SLACKBUILD NAME: python3-psutil
 SLACKBUILD LOCATION: Py2toPy3/python3-psutil/
 SLACKBUILD FILES: README dependees-on python3-psutil.SlackBuild python3-psutil.dep python3-psutil.info slack-desc slack-required
-SLACKBUILD VERSION: 5.9.4
-SLACKBUILD DOWNLOAD: https://pypi.io/packages/source/p/psutil/psutil-5.9.4.tar.gz
+SLACKBUILD VERSION: 5.9.5
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/p/psutil/psutil-5.9.5.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: f72751d05b781757b7cd9bc375d2e351
+SLACKBUILD MD5SUM: 864717cda1e2577b65da1f30cd37b537
 SLACKBUILD MD5SUM_x86_64:
-SLACKBUILD REQUIRES: python3-build python3-installer python3-wheel
+SLACKBUILD REQUIRES: python3-build python3-wheel
 PACKAGES DEPENDEES-ON: Solaar flexget jupyter-ipykernel jupyter-notebook jupyter-qtconsole jupyter_console jupyterlab letsencrypt locust memory-profiler menulibre mongodb neovim-remote nwg-panel nwg-shell odoo persepolis plaso pocketsphinx psuinfo pychess python3-glances python3-psutil python3-spyder-kernels speedometer spyder trash-cli ueberzug
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
@@ -11196,7 +11252,7 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 69b0b6de189bc04c3f9e304281765741
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-flit_core python3-installer
-PACKAGES DEPENDEES-ON: CairoSVG CairoSVG Electrum-DASH Electrum Fiona GMT OTB OpenCobolIDE RYMTracks Solaar anki argon2-cffi async-timeout audible-cli audible beautysh beets buildbot-badges buildbot-badges buildbot-worker buildbot cadabra2 cairocffi cairocffi calcure cdo codespell deluge dropbox-python dropbox-python exaile eyeD3 flexget gajim gdal geopandas geopandas getfem getfem gj2ascii grass grass httpie humanize hyfetch i3-layouts i3expo-ng i3ipc ics image-analyzer image-analyzer ipython jupyter-ipykernel jupyter-nbclassic jupyter-nbclassic jupyter-nbclient jupyter-nbconvert jupyter-nbformat jupyter-notebook jupyter-notebook jupyter-notebook_shim jupyter-notebook_shim jupyter-qtconsole jupyter_client jupyter_console jupyter_core jupyter_events jupyter_events jupyter_packaging jupyter_server jupyter_server jupyter_server_terminals jupyterlab jupyterlab jupyterlab_pygments jupyterlab_server jupyterlab_server kicad kolorcontrol letsencrypt libLAS libgeotiff librasterlite libspatialite locust memory-profiler menulibre merkaartor mongodb mp3fm mutagen mypy mysql-workbench neovim-remote nwg-panel nwg-panel nwg-shell nwg-shell nwg-wrapper odoo openorienteering-mapper osgEarth osm2pgrouting osm2pgsql ossim paraview paraview pdal pelican persepolis pgrouting pgsql-ogr-fdw picard-plugins picard pitivi pktools plaso pocketsphinx pocketsphinx pogo postgis proj-data psuinfo puddletag pyCRAC pyCRAC pychess pylast pyresample pyresample python-jeepney python-keyring python-qrcode python3-CherryMusic python3-CherryPy python3-Flask-Babel python3-Flask-Dance python3-Flask-RESTX python3-aiohttp-socks python3-aiohttp python3-ase python3-ase python3-astroid python3-attrdict python3-autotiling python3-basemap python3-basemap python3-basemap python3-black python3-build python3-calver python3-cartopy python3-cartopy python3-cartopy python3-cartopy python3-cattrs python3-cheroot python3-comm python3-confuse python3-diff-match-patch python3-distlib python3-docker-compose python3-docker python3-editables python3-exceptiongroup python3-filelock python3-flit python3-flit_scm python3-gensim python3-gensim python3-glances python3-hatch-nodejs-version python3-hatch_fancy_pypi_readme python3-hatch_jupyter_builder python3-hatch_vcs python3-hatchling python3-httpx python3-inflect python3-ipython-sql python3-iso3166 python3-isoduration python3-jaraco.classes python3-jaraco.collections python3-jaraco.context python3-jaraco.functools python3-jaraco.text python3-jsonschema python3-kiwisolver python3-klein python3-libtmux python3-lsp-black python3-lsp-jsonrpc python3-lsp-server python3-markdown-it-py python3-matplotlib-inline python3-matplotlib python3-mdurl python3-mediafile python3-more-itertools python3-nltk python3-obspy python3-obspy python3-obspy python3-obspy python3-pathspec python3-plumbum python3-poetry-core python3-portend python3-psutil python3-py-cpuinfo python3-pydantic python3-pylint-venv python3-pylint python3-pyls-spyder python3-pypng python3-pyproj python3-pyproj python3-pyproject-hooks python3-pytest-cov python3-pytest-runner python3-pytest-runner python3-pytest python3-pythran python3-pythran python3-requests-cache python3-rfc3986_validator python3-rfc3986_validator python3-rich python3-rpyc python3-scipy python3-scipy python3-seaborn python3-spyder-kernels python3-statsmodels python3-statsmodels python3-teletype python3-tempora python3-threadpoolctl python3-three-merge python3-tomli_w python3-tomlkit python3-trove-classifiers python3-tubes python3-twisted python3-ujson python3-url-normalize python3-virtualenv qgis qmapshack qtile qtile quodlibet radicale rasterio recoll rpy2 saga-gis scikit-learn scikit-learn secretstorage spatialite-tools speedometer spyder survex swtpm tauonmb terminado testpath therion thonny tmuxp todoman traitlets trash-cli twine typing-extensions tzdata ueberzug urlwatch vdirsyncer w3af whipper wxPython4 yle-dl
+PACKAGES DEPENDEES-ON: CairoSVG CairoSVG Electrum-DASH Electrum Fiona GMT OTB OpenCobolIDE RYMTracks Solaar anki argon2-cffi async-timeout audible-cli audible beautysh beets buildbot-badges buildbot-badges buildbot-worker buildbot cadabra2 cairocffi cairocffi calcure cdo codespell deluge dropbox-python dropbox-python exaile eyeD3 flexget gajim gdal geopandas geopandas getfem getfem gj2ascii grass grass httpie humanize hyfetch i3-layouts i3expo-ng i3ipc ics image-analyzer image-analyzer ipython jupyter-ipykernel jupyter-nbclassic jupyter-nbclassic jupyter-nbclient jupyter-nbconvert jupyter-nbformat jupyter-notebook jupyter-notebook jupyter-notebook_shim jupyter-notebook_shim jupyter-qtconsole jupyter_client jupyter_console jupyter_core jupyter_events jupyter_events jupyter_packaging jupyter_server jupyter_server jupyter_server_terminals jupyterlab jupyterlab jupyterlab_pygments jupyterlab_server jupyterlab_server kicad kolorcontrol letsencrypt libLAS libgeotiff librasterlite libspatialite locust memory-profiler menulibre merkaartor mongodb mp3fm mutagen mypy mysql-workbench neovim-remote nwg-panel nwg-panel nwg-shell nwg-shell nwg-wrapper odoo openorienteering-mapper osgEarth osm2pgrouting osm2pgsql ossim paraview paraview pdal pelican persepolis pgrouting pgsql-ogr-fdw picard-plugins picard pitivi pktools plaso pocketsphinx pocketsphinx pogo postgis proj-data psuinfo puddletag pyCRAC pyCRAC pychess pylast pyresample pyresample python-jeepney python-keyring python-qrcode python3-CherryMusic python3-CherryPy python3-Flask-Babel python3-Flask-Dance python3-Flask-RESTX python3-aiohttp-socks python3-aiohttp python3-ase python3-ase python3-astroid python3-async-timeout python3-attrdict python3-autotiling python3-basemap python3-basemap python3-basemap python3-black python3-build python3-calver python3-cartopy python3-cartopy python3-cartopy python3-cartopy python3-cattrs python3-cheroot python3-comm python3-confuse python3-diff-match-patch python3-distlib python3-docker-compose python3-docker python3-editables python3-exceptiongroup python3-filelock python3-flit python3-flit_scm python3-gensim python3-gensim python3-glances python3-hatch-nodejs-version python3-hatch_fancy_pypi_readme python3-hatch_jupyter_builder python3-hatch_vcs python3-hatchling python3-httpx python3-inflect python3-ipython-sql python3-iso3166 python3-isoduration python3-jaraco.classes python3-jaraco.collections python3-jaraco.context python3-jaraco.functools python3-jaraco.text python3-jsonschema python3-kiwisolver python3-klein python3-libtmux python3-lsp-black python3-lsp-jsonrpc python3-lsp-server python3-markdown-it-py python3-mat2 python3-matplotlib-inline python3-matplotlib python3-mdurl python3-mediafile python3-more-itertools python3-nltk python3-obspy python3-obspy python3-obspy python3-obspy python3-pathspec python3-plumbum python3-poetry-core python3-portend python3-psutil python3-py-cpuinfo python3-pydantic python3-pylint-venv python3-pylint python3-pyls-spyder python3-pypng python3-pyproj python3-pyproj python3-pyproject-hooks python3-pytest-cov python3-pytest-runner python3-pytest-runner python3-pytest python3-pythran python3-pythran python3-requests-cache python3-rfc3986_validator python3-rfc3986_validator python3-rich python3-rpyc python3-scipy python3-scipy python3-seaborn python3-spyder-kernels python3-statsmodels python3-statsmodels python3-teletype python3-tempora python3-threadpoolctl python3-three-merge python3-tomli_w python3-tomlkit python3-trove-classifiers python3-tubes python3-twisted python3-ujson python3-url-normalize python3-virtualenv qgis qmapshack qtile qtile quodlibet radicale rasterio recoll reuse-tool rpy2 saga-gis scikit-learn scikit-learn secretstorage spatialite-tools speedometer spyder survex swtpm tauonmb terminado testpath therion thonny tmuxp todoman traitlets trash-cli twine typing-extensions tzdata ueberzug urlwatch vdirsyncer w3af whipper wxPython4 yle-dl
 BUILD-TYPE: python3 -m flit_core.wheel python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
 SLACKBUILD SHORT DESCRIPTION: python3-pyproject-hooks (Wrappers to call PEP 517 build backend hooks)
@@ -11568,10 +11624,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-rfc3986_validator (A pure python RFC3986 v
 SLACKBUILD NAME: python3-rich
 SLACKBUILD LOCATION: Py2toPy3/python3-rich/
 SLACKBUILD FILES: README dependees-on python3-rich.SlackBuild python3-rich.dep python3-rich.info slack-desc slack-required
-SLACKBUILD VERSION: 13.3.3
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/r/rich/rich-13.3.3.tar.gz
+SLACKBUILD VERSION: 13.3.5
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/r/rich/rich-13.3.5.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: b7e2698e20223c282e60974c1d7c32b8
+SLACKBUILD MD5SUM: 8943de826cb552dd5e84a46c6c416c89
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-poetry-core python3-markdown-it-py
 PACKAGES DEPENDEES-ON: audible-cli audible eyeD3 flexget httpie pelican pylast python3-httpx python3-rich tauonmb twine
@@ -11859,6 +11915,20 @@ BUILD-TYPE: python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
 SLACKBUILD SHORT DESCRIPTION: python3-sniffio (detect which async library is current running)
 
+SLACKBUILD NAME: python3-socks
+SLACKBUILD LOCATION: Py2toPy3/python3-socks/
+SLACKBUILD FILES: README python3-socks.SlackBuild python3-socks.info slack-desc
+SLACKBUILD VERSION: 2.3.0
+SLACKBUILD DOWNLOAD: https://github.com/romis2012/python-socks/archive/v2.3.0/python-socks-2.3.0.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 141846d8204d314b08ef66af8b48b3a2
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES:
+PACKAGES DEPENDEES-ON:
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python3-socks (SOCKS proxy connector for aiohttp)
+
 SLACKBUILD NAME: python3-sortedcontainers
 SLACKBUILD LOCATION: Py2toPy3/python3-sortedcontainers/
 SLACKBUILD FILES: README python3-sortedcontainers.SlackBuild python3-sortedcontainers.info slack-desc
@@ -11988,10 +12058,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-teletype (A high-level cross platform tty 
 SLACKBUILD NAME: python3-tempora
 SLACKBUILD LOCATION: Py2toPy3/python3-tempora/
 SLACKBUILD FILES: README dependees-on python3-tempora.SlackBuild python3-tempora.dep python3-tempora.info slack-desc slack-required
-SLACKBUILD VERSION: 5.2.1
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/t/tempora/tempora-5.2.1.tar.gz
+SLACKBUILD VERSION: 5.2.2
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/t/tempora/tempora-5.2.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: a4b09c1285680f8491c4a574ae7201db
+SLACKBUILD MD5SUM: 1669df924e6445ee681a349ff507fdbf
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-jaraco.functools pytz
 PACKAGES DEPENDEES-ON: CherryMusic CherryPy flexget portend python3-CherryMusic python3-CherryPy python3-portend python3-tempora tempora
@@ -12142,10 +12212,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-toolz (A functional standard library for P
 SLACKBUILD NAME: python3-tornado
 SLACKBUILD LOCATION: Py2toPy3/python3-tornado/
 SLACKBUILD FILES: README python3-tornado.SlackBuild python3-tornado.info slack-desc
-SLACKBUILD VERSION: 6.3.1
-SLACKBUILD DOWNLOAD: https://github.com/tornadoweb/tornado/archive/v6.3.1/tornado-6.3.1.tar.gz
+SLACKBUILD VERSION: 6.3.2
+SLACKBUILD DOWNLOAD: https://github.com/tornadoweb/tornado/archive/v6.3.2/tornado-6.3.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: 1229ff91f29a655a4f534d5c5bd2a6a3
+SLACKBUILD MD5SUM: 1b57e51e50754a5c4ef419859b416373
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
@@ -12156,10 +12226,10 @@ SLACKBUILD SHORT DESCRIPTION: python3-tornado (web framework and asynchronous ne
 SLACKBUILD NAME: python3-trove-classifiers
 SLACKBUILD LOCATION: Py2toPy3/python3-trove-classifiers/
 SLACKBUILD FILES: README dependees-on python3-trove-classifiers.SlackBuild python3-trove-classifiers.dep python3-trove-classifiers.info slack-desc slack-required
-SLACKBUILD VERSION: 2023.3.9
-SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/t/trove-classifiers/trove-classifiers-2023.3.9.tar.gz
+SLACKBUILD VERSION: 2023.5.2
+SLACKBUILD DOWNLOAD: https://files.pythonhosted.org/packages/source/t/trove-classifiers/trove-classifiers-2023.5.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: a6f067864204e57551a5a3f1dfdb99de
+SLACKBUILD MD5SUM: 1cb4c728206aa3feeb3c260fd9a21466
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-calver
 PACKAGES DEPENDEES-ON: anki audible-cli audible eyeD3 flexget humanize ipython jupyter-ipykernel jupyter-nbclassic jupyter-nbclient jupyter-nbconvert jupyter-nbformat jupyter-notebook jupyter-notebook_shim jupyter-qtconsole jupyter_client jupyter_console jupyter_core jupyter_events jupyter_server jupyter_server_terminals jupyterlab jupyterlab_server pylast python3-Flask-RESTX python3-black python3-comm python3-docker-compose python3-filelock python3-hatch-nodejs-version python3-hatch_fancy_pypi_readme python3-hatch_jupyter_builder python3-hatch_vcs python3-hatchling python3-httpx python3-ipython-sql python3-jsonschema python3-lsp-black python3-matplotlib-inline python3-plumbum python3-pylint-venv python3-rpyc python3-spyder-kernels python3-trove-classifiers python3-virtualenv spyder tauonmb terminado todoman traitlets
@@ -12484,7 +12554,7 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: ec5004c46d1905da98bb5bc1a10ddd21
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-flit_core python3-installer
-PACKAGES DEPENDEES-ON: CairoSVG Electrum-DASH Electrum OpenCobolIDE PyGithub RYMTracks Scrapy Solaar Type1_to_OTF afdko anki ansible asttokens audible-cli audible beets boto buildbot-badges buildbot-worker buildbot buku butterfly cadabra2 caffeine-ng cairocffi calcure codespell conan cryptography deis deluge dfvfs dropbox-python dwave-neal exaile eyeD3 fabric flexget foolscap ftp-cloudfs gajim getfem grass humanize ics image-analyzer ipython jupyter-ipykernel jupyter-nbclassic jupyter-nbclient jupyter-nbconvert jupyter-nbformat jupyter-notebook jupyter-notebook_shim jupyter-qtconsole jupyter_client jupyter_console jupyter_core jupyter_events jupyter_packaging jupyter_server jupyter_server_terminals jupyterlab jupyterlab_pygments jupyterlab_server kicad kolorcontrol letsencrypt locust memory-profiler menulibre mongodb mp3fm mutagen mysql-workbench ndg_httpsclient neovim-remote nwg-panel nwg-shell-config nwg-shell nwg-wrapper odoo paraview pelican persepolis picard-plugins picard pitivi plaso pocketsphinx pogo psuinfo puddletag pyCRAC pyOpenSSL pychess pyftpdlib pygsl pyjwt pylast pymysql pynacl python-axolotl python-jeepney python-keyring python-mysql-replication python-qrcode python2-cryptography python2-paramiko python2-requests-kerberos python3-CherryMusic python3-CherryPy python3-Flask-RESTX python3-ase python3-attrdict python3-autobahn python3-automat python3-autotiling python3-basemap python3-black python3-booleanOperations python3-calver python3-cartopy python3-cheroot python3-comm python3-distlib python3-docker-compose python3-docker python3-editables python3-filelock python3-gensim python3-glances python3-hatch-nodejs-version python3-hatch_fancy_pypi_readme python3-hatch_jupyter_builder python3-hatch_vcs python3-hatchling python3-httpx python3-inflect python3-ipython-sql python3-iso3166 python3-isoduration python3-jaraco.classes python3-jaraco.collections python3-jaraco.context python3-jaraco.functools python3-jaraco.text python3-jsonschema python3-kiwisolver python3-klein python3-lsp-black python3-lsp-jsonrpc python3-lsp-server python3-lz4 python3-matplotlib-inline python3-matplotlib python3-mediafile python3-nltk python3-obspy python3-paramiko python3-plumbum python3-portend python3-psutil python3-py-cpuinfo python3-pydantic python3-pylint-venv python3-pylint python3-pyls-spyder python3-pypandoc python3-pypng python3-pytest-runner python3-pythran python3-requests-cache python3-rfc3986_validator python3-rpyc python3-rtree python3-scipy python3-seaborn python3-service-identity python3-shtab python3-spyder-kernels python3-stack_data python3-statsmodels python3-teletype python3-tempora python3-tomlkit python3-trove-classifiers python3-tubes python3-twisted python3-ujson python3-virtualenv python3-wheel qtile quodlibet radicale recoll rencode routersploit sabnzbd scikit-learn secretstorage service_identity sftp-cloudfs speedometer spyder sslstrip swtpm tahoe-lafs tauonmb terminado thonny todoman traitlets trash-cli twine tzdata ueberzug urlwatch w3af whipper wxPython4
+PACKAGES DEPENDEES-ON: CairoSVG Electrum-DASH Electrum OpenCobolIDE PyGithub RYMTracks Scrapy Solaar Type1_to_OTF afdko anki ansible asttokens audible-cli audible beets boto buildbot-badges buildbot-worker buildbot buku butterfly cadabra2 caffeine-ng cairocffi calcure codespell conan cryptography deis deluge dfvfs dropbox-python dwave-neal exaile eyeD3 fabric flexget foolscap ftp-cloudfs gajim getfem grass humanize ics image-analyzer ipython jupyter-ipykernel jupyter-nbclassic jupyter-nbclient jupyter-nbconvert jupyter-nbformat jupyter-notebook jupyter-notebook_shim jupyter-qtconsole jupyter_client jupyter_console jupyter_core jupyter_events jupyter_packaging jupyter_server jupyter_server_terminals jupyterlab jupyterlab_pygments jupyterlab_server kicad kolorcontrol letsencrypt locust memory-profiler menulibre mongodb mp3fm mutagen mysql-workbench ndg_httpsclient neovim-remote nwg-panel nwg-shell-config nwg-shell nwg-wrapper odoo paraview pelican persepolis picard-plugins picard pitivi plaso pocketsphinx pogo psuinfo puddletag pyCRAC pyOpenSSL pychess pyftpdlib pygsl pyjwt pylast pymysql pynacl python-axolotl python-jeepney python-keyring python-mysql-replication python-qrcode python2-cryptography python2-paramiko python2-requests-kerberos python3-CherryMusic python3-CherryPy python3-Flask-RESTX python3-ase python3-attrdict python3-autobahn python3-automat python3-autotiling python3-basemap python3-black python3-booleanOperations python3-calver python3-cartopy python3-cheroot python3-comm python3-distlib python3-docker-compose python3-docker python3-editables python3-filelock python3-gensim python3-glances python3-hatch-nodejs-version python3-hatch_fancy_pypi_readme python3-hatch_jupyter_builder python3-hatch_vcs python3-hatchling python3-httpx python3-inflect python3-ipython-sql python3-iso3166 python3-isoduration python3-jaraco.classes python3-jaraco.collections python3-jaraco.context python3-jaraco.functools python3-jaraco.text python3-jsonschema python3-kiwisolver python3-klein python3-lsp-black python3-lsp-jsonrpc python3-lsp-server python3-lz4 python3-mat2 python3-matplotlib-inline python3-matplotlib python3-mediafile python3-nltk python3-obspy python3-paramiko python3-plumbum python3-portend python3-psutil python3-py-cpuinfo python3-pydantic python3-pylint-venv python3-pylint python3-pyls-spyder python3-pypandoc python3-pypng python3-pytest-runner python3-pythran python3-requests-cache python3-rfc3986_validator python3-rpyc python3-rtree python3-scipy python3-seaborn python3-service-identity python3-shtab python3-spyder-kernels python3-stack_data python3-statsmodels python3-teletype python3-tempora python3-tomlkit python3-trove-classifiers python3-tubes python3-twisted python3-ujson python3-virtualenv python3-wheel qtile quodlibet radicale recoll rencode reuse-tool routersploit sabnzbd scikit-learn secretstorage service_identity sftp-cloudfs speedometer spyder sslstrip swtpm tahoe-lafs tauonmb terminado thonny todoman traitlets trash-cli twine tzdata ueberzug urlwatch w3af whipper wxPython4
 BUILD-TYPE: python3 -m flit_core.wheel python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: fourtysixandtwo fourtysixandtwo@sliderr.net
 SLACKBUILD SHORT DESCRIPTION: python3-wheel (A built-package format for Python)
@@ -12600,6 +12670,20 @@ PACKAGES DEPENDEES-ON: plaso plaso python2-yara python3-yara python3-yara volati
 BUILD-TYPE: python3 setup.py build --dynamic-linking python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Barry J. Grundy bgrundy<at>linuxleo.com
 SLACKBUILD SHORT DESCRIPTION: python3-yara (Python3 for yara)
+
+SLACKBUILD NAME: python3-yarl
+SLACKBUILD LOCATION: Py2toPy3/python3-yarl/
+SLACKBUILD FILES: README dependees-on python3-yarl.SlackBuild python3-yarl.dep python3-yarl.info slack-desc slack-required
+SLACKBUILD VERSION: 1.9.2
+SLACKBUILD DOWNLOAD: https://github.com/aio-libs/yarl/archive/v1.9.2/yarl-1.9.2.tar.gz
+SLACKBUILD DOWNLOAD_x86_64:
+SLACKBUILD MD5SUM: 3919df684a446d7fe6c5181a580efaa2
+SLACKBUILD MD5SUM_x86_64:
+SLACKBUILD REQUIRES: python3-multidict
+PACKAGES DEPENDEES-ON: Electrum python3-aiohttp-socks python3-aiohttp python3-yarl vdirsyncer yarl
+BUILD-TYPE: python3 setup.py install --root=$PKG
+SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
+SLACKBUILD SHORT DESCRIPTION: python3-yarl (Yet another URL library)
 
 SLACKBUILD NAME: python3-zopfli
 SLACKBUILD LOCATION: Py2toPy3/python3-zopfli/
@@ -12835,7 +12919,7 @@ SLACKBUILD MD5SUM: 89bb392d10ddc5e3d876a7a9e05d103c
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: reedsolo (Pure-Python Reed Solomon encoder/decoder)
 
@@ -13003,7 +13087,7 @@ SLACKBUILD MD5SUM: 15d25a2b72e618f792614f7e1ba7dd67
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python2-setuptools-scm
 PACKAGES DEPENDEES-ON: ink rst-linker
-BUILD-TYPE: python setup.py install --root=$PKG python3 setup.py install --root=$PKG
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Prof. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: rst-linker (provides a routine for adding links and performing other)
 
@@ -13017,7 +13101,7 @@ SLACKBUILD MD5SUM: 779a84e4c5f55a89b85917c07a4e3568
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE: python setup.py install --root=$PKG
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Prof. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: Line up the first '|' above the ':' following the base package name, and
 
@@ -13129,7 +13213,7 @@ SLACKBUILD MD5SUM: a92e3b8b7c864a9d5b25bf3d1a7ca39c
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python2-numpy python2-scipy umfpack
 PACKAGES DEPENDEES-ON: scikit-umfpack scikit-umfpack umfpack
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: scikit-umfpack (wrapper of UMFPACK sparse direct solver to SciPy)
 
@@ -13395,7 +13479,7 @@ SLACKBUILD MD5SUM: 6c50f30bc39046f497d336039a0c13fa
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Pr. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: sphinx-rtd-theme (decorator for caching properties in classes)
 
@@ -14094,7 +14178,7 @@ SLACKBUILD DOWNLOAD_x86_64:
 SLACKBUILD MD5SUM: 30ff8c89459dd93970a92a90b0386aba
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-build python3-flit_core python3-installer
-PACKAGES DEPENDEES-ON: Electrum async-timeout buildbot-badges buildbot-worker buildbot deluge flexget hyfetch ion ipython jupyter-ipykernel jupyter-notebook jupyter-qtconsole jupyter_console jupyterlab locust mypy python3-CherryMusic python3-CherryPy python3-aiohttp-socks python3-aiohttp python3-astroid python3-black python3-inflect python3-ipython-sql python3-jaraco.collections python3-jaraco.text python3-klein python3-lsp-black python3-pydantic python3-pylint-venv python3-pylint python3-spyder-kernels python3-tubes python3-twisted spyder swtpm thonny typing-extensions vdirsyncer
+PACKAGES DEPENDEES-ON: Electrum async-timeout buildbot-badges buildbot-worker buildbot deluge flexget hyfetch ion ipython jupyter-ipykernel jupyter-notebook jupyter-qtconsole jupyter_console jupyterlab locust mypy python3-CherryMusic python3-CherryPy python3-aiohttp-socks python3-aiohttp python3-astroid python3-async-timeout python3-black python3-inflect python3-ipython-sql python3-jaraco.collections python3-jaraco.text python3-klein python3-lsp-black python3-pydantic python3-pylint-venv python3-pylint python3-spyder-kernels python3-tubes python3-twisted spyder swtpm thonny typing-extensions vdirsyncer
 BUILD-TYPE: python3 -m build --no-isolation python3 -m installer -d "$PKG" dist/*.whl
 SLACKBUILD MAINTAINER: Isaac Yu isaacyu1@isaacyu1.com
 SLACKBUILD SHORT DESCRIPTION: typing-extensions (Backported and Experimental Type Hints for Python)
@@ -14193,7 +14277,7 @@ SLACKBUILD MD5SUM: 2fc3270a999cdc9341ba173360d62367
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Prof. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: vine (promise, async, future)
 
@@ -14375,7 +14459,7 @@ SLACKBUILD MD5SUM: 0853f1ea05529ccc7ccf83e8e033dd43
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Prof. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: workbook (App that creates xls reports, or tables, from simple lists)
 
@@ -14431,7 +14515,7 @@ SLACKBUILD MD5SUM: 7a6a339ddaacabce244341582ee61353
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES:
 PACKAGES DEPENDEES-ON:
-BUILD-TYPE:
+BUILD-TYPE: python2 setup.py install --root=$PKG python3 setup.py install --root=$PKG
 SLACKBUILD MAINTAINER: Prof. HORSTMANN wmh@eipg.fr
 SLACKBUILD SHORT DESCRIPTION: xlutils (utilities for working with Excel files)
 
@@ -14494,10 +14578,10 @@ SLACKBUILD SHORT DESCRIPTION: yara-python (Python for yara)
 SLACKBUILD NAME: yarl
 SLACKBUILD LOCATION: Py2toPy3/yarl/
 SLACKBUILD FILES: README dependees-on slack-desc slack-required yarl.SlackBuild yarl.dep yarl.info
-SLACKBUILD VERSION: 1.8.2
-SLACKBUILD DOWNLOAD: https://github.com/aio-libs/yarl/archive/v1.8.2/yarl-1.8.2.tar.gz
+SLACKBUILD VERSION: 1.9.2
+SLACKBUILD DOWNLOAD: https://github.com/aio-libs/yarl/archive/v1.9.2/yarl-1.9.2.tar.gz
 SLACKBUILD DOWNLOAD_x86_64:
-SLACKBUILD MD5SUM: b2378006de42c5c203642cd729232da8
+SLACKBUILD MD5SUM: 3919df684a446d7fe6c5181a580efaa2
 SLACKBUILD MD5SUM_x86_64:
 SLACKBUILD REQUIRES: python3-multidict
 PACKAGES DEPENDEES-ON: Electrum python3-aiohttp-socks python3-aiohttp vdirsyncer yarl
